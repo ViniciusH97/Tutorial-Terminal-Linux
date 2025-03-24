@@ -19,10 +19,3 @@ echo "Você tem $idade anos."
 nome="Ciclano" idade=30
 echo "Olá, $nome! Você tem $idade anos."
 
-# Tornando variáveis não modificáveis
-
-readonly nome="Beltrano" # a variável nome não pode ser modificada
-echo "Olá, $nome!" 
-read nome          # tentando modificar a variável nome
-echo "Olá, $nome!" # não será possível modificar a variável nome
-
