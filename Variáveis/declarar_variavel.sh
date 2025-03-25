@@ -4,7 +4,7 @@
 # 1. nome=valor
 # 2. nome="valor"
 
-nome="Fulano"
+nome="Pedro"
 echo "Olá, $nome!" # para acessar o valor de uma variável, basta colocar um cifrão ($) antes do nome da variável
 
 # podemos utilizar numeros, letras e underline (_) para nomear variáveis
