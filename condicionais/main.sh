@@ -1,4 +1,4 @@
-#!/bin/bash/
+#!/bin/bash
 
 # estruturas condicionais if/else podem ser utilizadas
 # -ne (Não é igual ou diferente !=)
