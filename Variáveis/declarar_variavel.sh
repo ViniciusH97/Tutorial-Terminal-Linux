@@ -16,6 +16,6 @@ idade=20
 echo "Você tem $idade anos."
 
 # podemos declarar variáveis em uma linha só
-nome="Ciclano" idade=30
+nome="Lucas" idade=30
 echo "Olá, $nome! Você tem $idade anos."
 
