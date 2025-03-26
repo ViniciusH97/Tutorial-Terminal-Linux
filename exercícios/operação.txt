@@ -1,0 +1,29 @@
+Exercício: Calculadora Simples
+Crie um script Bash que funcione como uma calculadora simples, permitindo ao usuário realizar operações básicas como soma, subtração, multiplicação e divisão.
+
+Requisitos:
+O script deve pedir ao usuário para escolher a operação (soma, subtração, multiplicação ou divisão).
+
+O script deve pedir ao usuário para inserir dois números.
+
+O script deve realizar a operação escolhida e exibir o resultado.
+
+O script deve validar a entrada do usuário:
+
+Verificar se o usuário escolheu uma operação válida.
+
+Verificar se os números inseridos são válidos (ou seja, não devem ser strings ou outros caracteres não numéricos).
+
+Para a operação de divisão, verifique se o divisor não é zero.
+
+Exemplo de saída esperada:
+
+Escolha uma operação:
+1) Soma
+2) Subtração
+3) Multiplicação
+4) Divisão
+Operação escolhida: 1
+Digite o primeiro número: 10
+Digite o segundo número: 5
+Resultado: 10 + 5 = 15
