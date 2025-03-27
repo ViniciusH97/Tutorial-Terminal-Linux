@@ -1,0 +1,13 @@
+Gerador de Senhas Aleatórias
+Crie um script Bash que gere uma senha aleatória de um tamanho especificado pelo usuário.
+
+Requisitos:
+O usuário deve informar o comprimento da senha.
+
+A senha deve conter letras maiúsculas, minúsculas, números e símbolos.
+
+O script deve garantir que o usuário insira um número válido.
+
+
+Digite o tamanho da senha: 12
+Senha gerada: kF8#bP2m!XaQ

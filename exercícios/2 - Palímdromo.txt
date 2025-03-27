@@ -1,0 +1,20 @@
+Verificador de Palíndromos
+
+Crie um script que peça ao usuário para digitar uma palavra e verifique se ela é um palíndromo 
+(ou seja, se pode ser lida da mesma forma de trás para frente).
+
+Requisitos:
+O usuário deve inserir uma palavra ou frase sem espaços.
+
+O script deve converter tudo para minúsculas antes da verificação.
+
+O script deve informar se a palavra é ou não um palíndromo.
+
+Exemplo de entrada e saída:
+
+
+Digite uma palavra: radar
+A palavra "radar" é um palíndromo!
+
+Digite uma palavra: casa
+A palavra "casa" NÃO é um palíndromo!

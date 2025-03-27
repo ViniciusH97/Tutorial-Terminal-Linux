@@ -1,0 +1,14 @@
+Contador de Arquivos e Diretório
+Escreva um script que conte quantos arquivos e diretórios existem dentro de um diretório informado pelo usuário.
+
+Requisitos:
+O usuário deve informar um diretório válido.
+
+O script deve exibir a quantidade de arquivos e diretórios separadamente.
+
+Exemplo de saída:
+
+
+Digite o caminho do diretório: /home/user/Documents
+Arquivos: 12
+Diretórios: 5
