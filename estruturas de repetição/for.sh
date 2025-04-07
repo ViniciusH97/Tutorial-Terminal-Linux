@@ -3,7 +3,7 @@
 # estruturas de repetição em bash
 # for, while, until
 
-# exemplo de for
+# exemplo de for no bash
 
 for i in {1..10}
 do

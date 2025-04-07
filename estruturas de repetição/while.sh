@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# While em bash exemplo
+# While em bash
 
 contador=1
 while [ $contador -le 10 ]; do
