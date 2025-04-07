@@ -19,4 +19,4 @@ funcao() {
 }
 funcao
 
-echo "O nome2 é: $nome2" # não será possível acessar a variável nome2 fora da função
+echo "O nome2 é: $nome2" # não será possível acessar a variável nome2 fora da funçãof
