@@ -22,6 +22,24 @@ Shell scripting permite automatizar tarefas repetitivas, combinar comandos e cri
 echo "Olá, Mundo!"
 ```
 
+> __Obs__: Não esqueça que de inserir _#!/bin/bash_ sempre deve ser inserido no começo dos scripts bash, para que seja identificado o interpretador.
+
+> #! → é o shebang, um marcador especial que informa ao sistema operacional que o arquivo deve ser executado por um interpretador específico.
+
+> /bin/bash → é o caminho absoluto do interpretador Bash, localizado na pasta /bin.
+
+### Comentário
+
+Para realizar um comentário em shell, podemos inserir o caractere especial **#**, e em seguida inserir o comentário desejado.
+
+Exemplo:
+
+```bash
+#!/bin/bash
+
+read input1 # Leitura da variável input1
+```
+
 ### Como executar o código bash?
 
 Podemos executar da seguinte forma:
