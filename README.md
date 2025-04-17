@@ -18,7 +18,6 @@ Shell scripting permite automatizar tarefas repetitivas, combinar comandos e cri
 
 ```bash
 #!/bin/bash
-# Meu primeiro script
 echo "Olá, Mundo!"
 ```
 
@@ -33,6 +32,16 @@ echo "Olá, Mundo!"
 Para realizar um comentário em shell, podemos inserir o caractere especial **#**, e em seguida inserir o comentário desejado.
 
 Exemplo:
+
+```bash
+#!/bin/bash
+
+# Meu primeiro script
+
+echo "Olá, Mundo!" # Escreva Olá, Mundo!
+```
+
+Exemplo 2:
 
 ```bash
 #!/bin/bash
