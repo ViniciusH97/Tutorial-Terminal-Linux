@@ -2,13 +2,18 @@
 
 Este tutorial introduz os conceitos fundamentais de shell scripting. Shell scripts são arquivos de texto contendo comandos que o shell executa sequencialmente, automatizando tarefas no sistema operacional.
 
+## índice
+
+1. [Introdução ao Shell Scriptingg](#Introdução-ao-Shell-Scriptin)
+2. [Criando Primeiro Script](#Criando-seu-primeiro-Script)
+
 ## Introdução ao Shell Scripting
 
 Shell scripting permite automatizar tarefas repetitivas, combinar comandos e criar utilitários personalizados para seu sistema.
 
 ## Criando seu Primeiro Script
 
-Vamos criar um script simples que exibe uma mensagem:
+### Vamos criar um script simples que exibe uma mensagem:
 
 ```bash
 #!/bin/bash
@@ -16,7 +21,7 @@ Vamos criar um script simples que exibe uma mensagem:
 echo "Olá, Mundo!"
 ```
 
-## Como executar o código bash?
+### Como executar o código bash?
 
 Podemos executar da seguinte forma:
 - Salvamos o arquivo com o nome que você preferir: [nome].sh. Exemplo: meu_script.sh
@@ -38,3 +43,7 @@ Output:
 ```
 Olá, Mundo!
 ```
+
+## Variáveis
+
+
