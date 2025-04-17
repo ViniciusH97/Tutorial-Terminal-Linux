@@ -4,7 +4,7 @@ Este tutorial introduz os conceitos fundamentais de shell scripting. Shell scrip
 
 ## Índice 📑
 
-1. [Introdução ao Shell Scriptingg](#Introdução-ao-Shell-Scriptin)
+1. [Introdução ao Shell Scripting](#Introdução-ao-Shell-Scriptin)
 2. [Criando Primeiro Script](#Criando-seu-primeiro-Script)
 3. [Variáveis](#Variáveis)
 
@@ -29,7 +29,7 @@ echo "Olá, Mundo!"
 
 ### Comentário
 
-Para realizar um comentário em shell, podemos inserir o caractere especial **#**, e em seguida inserir o comentário desejado.
+Para realizar um comentário em shell, podemos inserir o carácter especial **#**, e em seguida inserir o comentário desejado.
 
 Exemplo:
 
