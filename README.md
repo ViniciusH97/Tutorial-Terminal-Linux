@@ -1,4 +1,4 @@
-# Shell Scripting Básico
+# Shell Scripting
 
 Este tutorial introduz os conceitos fundamentais de shell scripting para usuários iniciantes. Shell scripts são arquivos de texto contendo comandos que o shell executa sequencialmente, automatizando tarefas no sistema operacional.
 
