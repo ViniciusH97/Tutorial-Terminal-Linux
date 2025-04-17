@@ -52,8 +52,8 @@ read input1 # Leitura da variável input1
 ### Como executar o código bash?
 
 Podemos executar da seguinte forma:
-- Salvamos o arquivo com o nome que você preferir: [nome].sh. Exemplo: meu_script.sh
-- Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos o *chmod*. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
+1. Salvamos o arquivo com o nome que você preferir: [nome].sh. Exemplo: meu_script.sh
+2. Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos o *chmod*. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
 
 Exemplo:
 
