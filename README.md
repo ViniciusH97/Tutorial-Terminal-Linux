@@ -45,5 +45,3 @@ Olá, Mundo!
 ```
 
 ## Variáveis
-
-
