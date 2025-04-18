@@ -73,3 +73,13 @@ Olá, Mundo!
 ```
 
 ## Variáveis
+
+As variáveis podem ser criadas de duas formas, por atribuição no momento do input pela palavra reservada __read__, ou podemos criar atribuindo o valor a variável com um valor específico. Vamos ver os dois exemplos.
+
+```bash
+#!/bin/bash
+
+read nome # atribuição do valor de entrada(input) nome, conforme o valor digitado pelo usuário.
+
+echo "Seu nome é $nome."
+```
