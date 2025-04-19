@@ -92,7 +92,7 @@ Exemplo:
 name="John" # o interpretador reconhecerá a variável como uma única string com o valor John
 echo name # imprime John
 
-name_2=John Cash # Erro pois o interpretador tentará executar o _Cash_ como comando
+name_2=John Cash # Erro pois o interpretador tentará executar o *Cash* como comando
 
 idade=30 # atribuição de um valor numérico inteiro
 
