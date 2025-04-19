@@ -83,3 +83,19 @@ read nome # atribuição do valor de entrada(input) nome, conforme o valor digit
 
 echo "Seu nome é $nome."
 ```
+
+Outra forma de utilizar as variáveis são atribuir valores de vários tipos, sendo eles númericos(inteiro, flutuante), string ou caractere.
+
+Exemplo:
+
+```bash
+name="John" # o interpretador reconhecerá a variável como uma única string com o valor John
+echo name # imprime John
+
+name_2=John Cash # Erro pois o interpretador tentará executar o _Cash_ como comando
+
+idade=30 # atribuição de um valor numérico inteiro
+
+echo "$idade"
+
+```
