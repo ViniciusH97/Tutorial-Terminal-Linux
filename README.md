@@ -1,6 +1,6 @@
-# Shell Scripting 🐧
+# Bash Script 🐧
 
-Este tutorial introduz os conceitos fundamentais de shell scripting. Shell scripts são arquivos de texto contendo comandos que o shell executa sequencialmente, automatizando tarefas no sistema operacional.
+Este tutorial introduz os conceitos fundamentais de bash scripting. Bash scripts são arquivos de texto contendo comandos que o shell executa sequencialmente, automatizando tarefas no sistema operacional.
 
 ## Índice 📑
 
