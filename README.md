@@ -6,7 +6,7 @@ Este tutorial introduz os conceitos fundamentais de bash scripting. Bash scripts
 
 1. [Introdução ao Shell Scripting](#Introdução-ao-Shell-Scriptin)
 2. [Criando Primeiro Script](#Criando-seu-primeiro-Script)
-3. [Variáveis](https://github.com/ViniciusH97/Shell-Scripting-tutorial/tree/main/Vari%C3%A1veis#readme)
+3. [Variáveis](https://github.com/ViniciusH97/Bash-Script-tutorial/tree/main/2%20-%20Vari%C3%A1veis#readme)
 
 ## Introdução ao Shell Scripting 
 
