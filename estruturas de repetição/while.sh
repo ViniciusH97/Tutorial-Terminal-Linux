@@ -2,9 +2,10 @@
 
 # While em bash
 
-contador=1
-while [ $contador -le 10 ]; do
-    echo "Número $contador"
-    contador=$(( contador + 1 ))
+cont=1
+while [ $cont -le 10 ]; do
+    echo "$cont"
+    ((cont++))
 done
+
 
