@@ -84,18 +84,46 @@ read nome # atribuição do valor de entrada(input) nome, conforme o valor digit
 echo "Seu nome é $nome."
 ```
 
-Outra forma de utilizar as variáveis são atribuir valores de vários tipos, sendo eles númericos(inteiro, flutuante), string ou caractere.
+### Declarar variáveis
+
+Outra forma de utilizar as variáveis são atribuir valores de diferentes tipos, como strings, numéricos inteirose e caracteres. A declaração de variáveis não requer um tipo explícito, e também não deve haver espaços ao redor do símbolo especial de atribuição =.
 
 Exemplo:
 
 ```bash
-name="John" # o interpretador reconhecerá a variável como uma única string com o valor John
-echo name # imprime John
+# Atribuição de uma string
+name="John" # o interpretador reconhecerá como uma string literal
+echo "$name" # Usamos o símbolo "$" para imprimir o valor da variável name
+```
 
-name_2=John Cash # Erro pois o interpretador tentará executar o Cash como comando
+> Obs: Sempre utilize aspas ao redor de strings com espaços para evitar erros ao rodar o script bash.
 
-idade=30 # atribuição de um valor numérico inteiro
+Exemplo Incorreto
+```bash
+name_2=John wake # Erro pois o interpretador tentará executar o "wake" como comando
+```
 
-echo "$idade"
+Exemplo Correto
+```bash
+name2="John wake"
+echo "$name_2"
+```
+
+Exemplo de variável númerica
+```bash
+idade=20 # atribuição de um valor numérico inteiro
+echo "Você tem $idade anos de idade." # Podemos imprimir o valor de uma variável utilzando o "$" e echo para escrever o texto.
+
+# Saída: Você tem 20 anos de idade.
 
 ```
+
+### Remover o valor da variável
+
+Podemos remover o valor da variável utilizando o "*unset*".
+
+Por exemplo:
+
+```bash
+idade=18
+unset
