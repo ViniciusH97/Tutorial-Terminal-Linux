@@ -6,7 +6,7 @@ Este tutorial introduz os conceitos fundamentais de shell scripting. Shell scrip
 
 1. [Introdução ao Shell Scripting](#Introdução-ao-Shell-Scriptin)
 2. [Criando Primeiro Script](#Criando-seu-primeiro-Script)
-3. [Variáveis](https://github.com/ViniciusH97/Shell-Scripting-tutorial/edit/main/Vari%C3%A1veis/README.md)
+3. [Variáveis](https://github.com/ViniciusH97/Shell-Scripting-tutorial/tree/main/Vari%C3%A1veis#readme)
 
 ## Introdução ao Shell Scripting 
 
