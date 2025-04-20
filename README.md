@@ -125,5 +125,9 @@ Podemos remover o valor da variável utilizando o "*unset*".
 Por exemplo:
 
 ```bash
-idade=18
-unset
+idade=18 # atribuição do valor 18 para a variável idade
+unset idade # remove o valor da variável (18)
+
+idade=20 # atribui o valor 20 à variável idade
+echo "$idade" # Saída: 20
+```
