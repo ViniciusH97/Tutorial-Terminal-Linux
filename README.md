@@ -5,7 +5,8 @@ Este tutorial introduz os conceitos fundamentais de bash scripting. Bash scripts
 ## Índice 📑
 
 1. [Introdução ao Bash](#Bash-Script)
-2. [Fundamentos de Script Bash](https://github.com/ViniciusH97/Bash-Script-tutorial/tree/main/2%20-%20Fundamentos-Script#readme)
+2. [Conceitos Básicos](https://github.com/ViniciusH97/Bash-Script-tutorial/tree/main/1%20-%20Comandos%20B%C3%A1sicos)
+3. [Fundamentos de Script Bash](https://github.com/ViniciusH97/Bash-Script-tutorial/tree/main/2%20-%20Fundamentos-Script#readme)
 
 ## Introdução ao Shell Scripting 
 
