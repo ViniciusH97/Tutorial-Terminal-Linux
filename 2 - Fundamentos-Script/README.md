@@ -1,3 +1,65 @@
+# Fundamentos de Script Bash
+
+## Criando o Primeito Script Bash
+
+### Vamos criar um script simples que exibe uma mensagem:
+
+```bash
+#!/bin/bash
+echo "Olá, Mundo!"
+```
+
+> Obs: Não esqueça que de inserir _#!/bin/bash_ sempre deve ser inserido no começo dos scripts bash, para que seja identificado o interpretador.
+
+> #! → é o shebang, um marcador especial que informa ao sistema operacional que o arquivo deve ser executado por um interpretador específico.
+
+> /bin/bash → é o caminho absoluto do interpretador Bash, localizado na pasta /bin.
+
+### Comentário
+
+Para realizar um comentário em shell, podemos inserir o carácter especial **#**, e em seguida inserir o comentário desejado.
+
+Exemplo:
+
+```bash
+#!/bin/bash
+
+# Meu primeiro script
+
+echo "Olá, Mundo!" # Escreva Olá, Mundo!
+```
+
+Exemplo 2:
+
+```bash
+#!/bin/bash
+
+read input1 # Leitura da variável input1
+```
+
+### Como executar o código bash?
+
+Podemos executar da seguinte forma:
+1. Salvamos o arquivo com o nome que você preferir: [nome].sh. Exemplo: meu_script.sh
+2. Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos o *chmod*. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
+
+Exemplo:
+
+```bash
+chmod +x meu_script.sh
+```
+
+E execute utilizando:
+
+```bash
+./meu_script.sh
+```
+
+Output:
+```
+Olá, Mundo!
+```
+
 ## Variáveis
 
 As variáveis podem ser criadas de duas formas, por atribuição no momento do input pela palavra reservada __read__, ou podemos criar atribuindo o valor a variável com um valor específico. Vamos ver os dois exemplos.
@@ -57,3 +119,4 @@ unset idade # remove o valor da variável (18)
 idade=20 # atribui o valor 20 à variável idade
 echo "$idade" # Saída: 20
 ```
+
