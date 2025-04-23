@@ -38,15 +38,26 @@ Exemplo Prático:
 `cd`
 > ![image](https://github.com/user-attachments/assets/77b0e59f-0d78-40bc-9e96-c7225197d181)
 
-## Manipulação de arquivos e pastas
+## Comandos para Manipulação de arquivos e pastas
 
 | Comando | Descrição | Exemplo |
 |--------|-----------|---------|
-| mkdir | Cria uma nova pasta/diretório | mkdir fotos |
-| touch | Cria um novo arquivo vazio | touch nota.txt |
-| cp | Copia arquivo ou diretório (`-r` para diretórios) | cp nota.txt /home/user/Desktop |
-| rm | Remove arquivo (use `-r` para remover diretórios) | rm nota.txt |
-| rmdir | Remove diretório vazio | rmdir fotos |
-| mv | Move ou renomeia arquivos/diretórios | mv nota.txt /home/user/Documents/ |
+| mkdir | Cria uma nova pasta/diretório | `mkdir fotos` |
+| touch | Cria um novo arquivo vazio | `touch nota.txt` |
+| cp | Copia arquivo ou diretório (`-r` para diretórios) | `cp nota.txt /home/user/Desktop` |
+| rm | Remove arquivo (use `-r` para remover diretórios) | `rm nota.txt` |
+| rmdir | Remove diretório vazio | `rmdir fotos` |
+| mv | Move ou renomeia arquivos/diretórios | `mv nota.txt /home/user/Documents/` |
 
-## Comandos para visualizaçãode conteúdo de arquivos
+> Obs: É recomendado que teste esses comandos em algum sistema operacional Linux. Crie uma pasta e exclua, crie um arquivo vazio.
+
+## Comando para visualização de conteúdo de arquivos
+
+| Comando | Descrição | Exemplo |
+| --------| --------- | ------- |
+| cat     | Exibe o conteúdo do arquivo diretamente no terminal | `cat nota.txt` |
+| less    | Exibe o conteúdo do arquivo de forma paginada, caso o arquivo for grande | `less nota.txt` |
+| head    | Exibe somente as 10 primeiras linhas do arquivo | `head nota.txt` |
+| tail    | Exibe somente as 10 últimas linhas do arquivo | `tail nota.txt` |
+| tail -f | Exibe o conteudo, e atualiza em tempo real | `tail -f auth.log` |
+
