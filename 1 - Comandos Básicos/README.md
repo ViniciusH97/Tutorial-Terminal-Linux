@@ -49,7 +49,7 @@ Exemplo Prático:
 | rmdir | Remove diretório vazio | `rmdir fotos` |
 | mv | Move ou renomeia arquivos/diretórios | `mv nota.txt /home/user/Documents/` |
 
-> Obs: É recomendado que teste esses comandos em algum sistema operacional Linux. Crie uma pasta e exclua, crie um arquivo vazio.
+> Obs: É recomendado que teste esses comandos em algum sistema operacional Linux. Crie uma pasta e exclua, crie um arquivo vazio... Conforme utliza os comandos, fica mais fácil de manipular o sistema.
 
 ## Comando para visualização de conteúdo de arquivos
 
