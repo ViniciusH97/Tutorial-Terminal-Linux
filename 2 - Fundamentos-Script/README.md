@@ -1,6 +1,6 @@
 # Fundamentos de Script Bash
 
-## Criando o Primeito Script Bash
+## Criando o Primeiro Script Bash
 
 ### Vamos criar um script simples que exibe uma mensagem:
 
