@@ -17,7 +17,7 @@ Para começar vamos abrir o terminal. Podemos abrir de duas formas:
 
 ## Comandos essenciais
 
-Para você que está começando a utilizar o terminal bash, é essencial aprender os comandos básicos do GNU Bash, como comandos de navegação, gerenciar arquivos, ver informações do sistema e até automatização de tarefas.
+Para você que está começando a utilizar o terminal, é essencial aprender os comandos básicos do GNU Bash, como comandos de navegação, gerenciar arquivos, ver informações do sistema e até automatização de tarefas. Abaixo poderá ver o comando e seu exemplos de uso.
 
 ## Navegação do Sistema 
 
@@ -51,7 +51,7 @@ Exemplo Prático:
 
 > Obs: É recomendado que teste esses comandos em algum sistema operacional Linux. Crie uma pasta e exclua, crie um arquivo vazio... Conforme utliza os comandos, fica mais fácil de manipular o sistema.
 
-## Comando para visualização de conteúdo de arquivos
+## Comandos para visualização do conteúdo de arquivos
 
 | Comando | Descrição | Exemplo |
 | --------| --------- | ------- |
@@ -61,3 +61,9 @@ Exemplo Prático:
 | tail    | Exibe somente as 10 últimas linhas do arquivo | `tail nota.txt` |
 | tail -f | Exibe o conteudo, e atualiza em tempo real | `tail -f auth.log` |
 
+## Comandos para busca e filtros 
+
+| Comando | Descrção | Exemplo |
+| ------- | -------- | ------- |
+| find    | Encontrar um arquivo em um diretório específico |
+| grep    | Faz uma usca da palavra específica no arquivo |
