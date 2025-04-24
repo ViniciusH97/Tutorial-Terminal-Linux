@@ -4,14 +4,14 @@
 1. [Comandos de navegação do sistema](#Navegação-do-Sistema)
 2. [Manipulação de arquivos e pastas](#Manipulação-de-arquivos-e-pastas)
 
-Terminal bash é um programa shell onde podemos executar linhas de comandos e controlar sistemas operacionais, comumente utilizado no Linux.
+O terminal Bash é uma interface de linha de comando (CLI) onde podemos executar comandos para controlar o sistema operacional. Ele é um dos shells mais populares e é comumente utilizado em distribuições Linux.
 
 Clique abaixo para acessar a documentação oficial do GNU Bash:
 [Manual GNU Bash](https://www.gnu.org/software/bash/manual/bash.html)
 
 Para começar vamos abrir o terminal. Podemos abrir de duas formas:
-- Acessamos o terminal pelo ícone no desktop.
-- Acessamos o terminal pressionando as teclas de atalho _Ctrl + Alt + T_.
+1. Acessamos o terminal pelo ícone no desktop.
+2. Acessamos o terminal pressionando as teclas de atalho _Ctrl + Alt + T_.
 
 ![image](https://github.com/user-attachments/assets/96317331-2bce-4091-977f-187af0ab36cb)
 
