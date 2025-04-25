@@ -21,7 +21,7 @@ Para você que está começando a utilizar o terminal, é essencial aprender os 
 
 ## Navegação do Sistema 
 
-| Comando      | descrição |
+| Comando      | Descrição |
 | ----------- | ----------- |
 | pwd | Exibe o caminho completo do diretório atual  | 
 | ls  | Exibe no terminal os arquivos e pastas do diretório atual |
