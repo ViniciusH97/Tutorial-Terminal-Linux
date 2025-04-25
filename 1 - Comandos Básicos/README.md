@@ -61,9 +61,16 @@ Exemplo Prático:
 | tail    | Exibe somente as 10 últimas linhas do arquivo | `tail nota.txt` |
 | tail -f | Exibe o conteudo, e atualiza em tempo real | `tail -f auth.log` |
 
-## Comandos para busca e filtros 
+## Comandos para busca em arquivos
 
-| Comando | Descrção | Exemplo |
-| ------- | -------- | ------- |
-| find    | Encontrar um arquivo em um diretório específico |
-| grep    | Faz uma usca da palavra específica no arquivo |
+| Comando | Descrção | Exemplo 1 | Exemplo 2 |
+| ------- | -------- | --------- | --------- |
+| grep    | Faz uma busca de um padrão específico em arquivos | grep "date" [caminho do arquivo] | grep "usuário" *.txt |
+| egrep   | Busca padrões em arquivos usando expressões regulares | egrep "palavra" log.txt | egrep "palavra" [caminho1] [caminho2] |
+| awk {print $[coluna]} | Exibe a uma coluna específica de um arquivo | awk {print $2} log.txt | awk '/error/ {print $0}' log.txt |
+
+## Comando de busca em diretórios
+
+| Comando | Descrição | Exemplo 1 | Exemplo 2 |
+| ------- | --------- | --------- | --------- |
+| find    | Encontrar um arquivo em um diretório específico | find [caminho] --name "*.txt" | find [caminho] -type d -name "lib" |
