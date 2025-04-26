@@ -41,7 +41,7 @@ read input1 # Leitura da variável input1
 
 Podemos executar da seguinte forma:
 1. Salvamos o arquivo com o nome que você preferir: [nome].sh. Exemplo: meu_script.sh
-2. Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos o *chmod*. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
+2. Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos como `chmod`. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
 
 Exemplo:
 
@@ -62,7 +62,7 @@ Olá, Mundo!
 
 ## Variáveis
 
-As variáveis podem ser criadas de duas formas, por atribuição no momento do input pela palavra reservada __read__, ou podemos criar atribuindo o valor a variável com um valor específico. Vamos ver os dois exemplos.
+As variáveis podem ser criadas de duas formas, por atribuição no momento do input pela palavra reservada `read`, ou podemos criar atribuindo o valor a variável com um valor específico. Vamos ver os dois exemplos.
 
 ```bash
 #!/bin/bash
@@ -108,7 +108,7 @@ echo "Você tem $idade anos de idade." # Podemos imprimir o valor de uma variáv
 
 ### Remover o valor da variável
 
-Podemos remover o valor da variável utilizando o "*unset*".
+Podemos remover o valor da variável utilizando o `unset`.
 
 Por exemplo:
 
