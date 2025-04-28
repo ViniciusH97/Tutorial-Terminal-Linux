@@ -74,7 +74,7 @@ Exemplo Prático:
 | Comando | Descrição | Exemplo 1 | Exemplo 2 |
 | ------- | --------- | --------- | --------- |
 | find    | Encontrar um arquivo em um diretório específico | find [caminho] --name "*.txt" | find [caminho] -type d -name "lib" |
-| locate  | Buscar arquivos e diretórios | locate "dados.csv" | locate log (retorna todos os arquivos e diretórios com log no nome)
+| locate  | Buscar arquivos e diretórios | locate dados.csv | locate log (retorna todos os arquivos e diretórios com log no nome)
 
 > Obs: O comando `locate` é uma alternativa do comando `find`, pois ele é mais rápido ao realizar pesquisas. Isso ocorre porque o primeiro apenas verifica seu banco de dados Linux em vez de todo o sistema. Além disso, a sintaxe é relativamente mais fácil de escrever.
 
