@@ -49,7 +49,7 @@ Exemplo Prático:
 | rmdir | Remove diretório vazio | `rmdir fotos` |
 | mv | Move ou renomeia arquivos/diretórios | `mv nota.txt /home/user/Documents/` |
 
-> Obs: É recomendado que teste esses comandos em algum sistema operacional Linux. Crie uma pasta e exclua, crie um arquivo vazio... Conforme utliza os comandos, fica mais fácil de manipular o sistema.
+> Obs: É recomendado testar esses comandos em algum sistema operacional Linux. Você pode criar e excluir pastas, criar arquivos vazios, navegar pelos diretórios etc. A medida que vai utilizando os comandos, fica mais fácil manipular o sistema.
 
 ## Comandos para visualização do conteúdo de arquivos
 
@@ -74,3 +74,12 @@ Exemplo Prático:
 | Comando | Descrição | Exemplo 1 | Exemplo 2 |
 | ------- | --------- | --------- | --------- |
 | find    | Encontrar um arquivo em um diretório específico | find [caminho] --name "*.txt" | find [caminho] -type d -name "lib" |
+| locate  | Buscar arquivos e diretórios | locate "dados.csv" | locate log (retorna todos os arquivos e diretórios com log no nome)
+
+> Obs: O comando `locate` é uma alternativa do comando `find`, pois ele é mais rápido ao realizar pesquisas. Isso ocorre porque o primeiro apenas verifica seu banco de dados Linux em vez de todo o sistema. Além disso, a sintaxe é relativamente mais fácil de escrever.
+
+Às vezes, o comando `locate` padrão pode retornar arquivos que foram excluídos, se o banco de dados não foi atualizado. A melhor solução é atualizar manualmente o banco de dados executando o seguinte:
+
+```bash
+sudo updatedb
+```
