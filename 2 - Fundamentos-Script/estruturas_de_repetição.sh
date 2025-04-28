@@ -16,3 +16,11 @@ for i in $(seq 1 10)
 do
     echo "Número: $i"
 done
+
+# While em bash
+
+cont=1
+while [ $cont -le 10 ]; do
+    echo "$cont"
+    ((cont++))
+done

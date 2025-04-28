@@ -120,3 +120,4 @@ idade=20 # atribui o valor 20 à variável idade
 echo "$idade" # Saída: 20
 ```
 
+## Estruturas condicionais
