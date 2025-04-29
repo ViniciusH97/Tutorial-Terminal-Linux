@@ -1,2 +1,2 @@
-# Ferramentas para Segurança Ofensiva
+# Ferramentas de Segurança Ofensiva
 
