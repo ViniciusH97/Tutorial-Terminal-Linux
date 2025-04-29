@@ -167,7 +167,7 @@ como `if`, `while`, etc.
 
 #### Por exemplo:
 
-# Estrutura condicional com operador lógico
+### Estrutura condicional com operador lógico
 
 ```bash
 if [ $num1 -gt 10 ] && [ $num2 -gt 10 ]; then
