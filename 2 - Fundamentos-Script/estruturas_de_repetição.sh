@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # estruturas de repetição em bash
-# for, while, until
+# for, while e until
+# Estruturas de repetição são utilizadas para executar um bloco de código várias vezes, enquanto uma condição for verdadeira.
+# A estrutura de repetição for é utilizada para iterar sobre uma lista de itens, enquanto a estrutura while executa um bloco de código enquanto uma condição for verdadeira.
+# A estrutura until executa um bloco de código enquanto uma condição for falsa.
 
 # exemplo de for no bash
 

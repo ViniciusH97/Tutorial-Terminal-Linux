@@ -165,7 +165,7 @@ fi
 No Bash, além dos operadores de comparação, também usamos operadores lógicos(`&&` e `||`) para combinar múltiplas condições dentro de estruturas
 como `if`, `while`, etc.
 
-#### Por exemplo:
+### Exemplo
 
 # Estrutura condicional com operador lógico
 
@@ -177,4 +177,38 @@ elif [ $num1 -lt 10 ] || [ $num2 -lt 10 ]; then
 else
     echo "Nenhum dos números é maior que 10."
 fi
+```
+
+## Estruturas de repetição
+
+Estruturas de repetição são utilizadas para executar uma parte do código várias vezes, enquanto uma condição for verdadeira. Podemos desenvolver estruturas de repetição em bash utilizando `for`, `while` e `until`. A estrutura de repetição for é utilizada para iterar sobre uma lista de itens, enquanto a estrutura while executa uma parte do código enquanto uma condição for verdadeira. A estrutura until executa a parte do código enquanto uma condição for falsa.
+
+Vamos seguir com os exemplos.
+
+Exemplo `for`:
+
+```bash
+for i in {1..5} 
+do
+    echo "$i"
+done
+```
+
+ou podemos utilizar o `seq`, para determinar quantas vezes o bloco de código irá rodar.
+
+```bash
+for i in $(seq 1 10)
+do
+    echo "$i"
+done
+```
+
+Exemplo `while`
+
+```bash
+cont=1
+while ( $cont -eq 10 ); do
+    echo "$cont"
+    ((cont++))
+done
 ```
