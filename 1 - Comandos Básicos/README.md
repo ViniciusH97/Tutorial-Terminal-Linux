@@ -40,6 +40,8 @@ Exemplo Prático:
 
 ## Comandos para Manipulação de arquivos e pastas
 
+Estes comandos 
+
 | Comando | Descrição | Exemplo |
 |--------|-----------|---------|
 | mkdir | Cria uma nova pasta/diretório | `mkdir fotos` |
@@ -63,11 +65,13 @@ Exemplo Prático:
 
 ## Comandos para busca em arquivos
 
-| Comando | Descrção | Exemplo 1 | Exemplo 2 |
+Com esses comandos, você poderá realizar buscas de arquivos, diretórios e padrões de forma prática diretamente no terminal (shell).
+
+| Comando | Descrição | Exemplo 1 | Exemplo 2 |
 | ------- | -------- | --------- | --------- |
 | grep    | Faz uma busca de um padrão específico em arquivos | grep "date" [caminho do arquivo] | grep "usuário" *.txt |
-| egrep   | Busca padrões em arquivos usando expressões regulares | egrep "palavra" log.txt | egrep "palavra" [caminho1] [caminho2] |
-| awk {print $[coluna]} | Exibe a uma coluna específica de um arquivo | awk {print $2} log.txt | awk '/error/ {print $0}' log.txt |
+| egrep   | Busca padrões em arquivos usando expressões regulares, este comando equivale ao egrep -E, já que o mesmo está absoleto. | egrep "palavra" log.txt | egrep "palavra" [caminho1] [caminho2] |
+| awk '{print $[coluna]}' | Exibe a uma coluna específica de um arquivo | awk '{print $2}' log.txt | awk '/error/ {print $0}' log.txt |
 
 ## Comando de busca em diretórios
 
@@ -75,6 +79,8 @@ Exemplo Prático:
 | ------- | --------- | --------- | --------- |
 | find    | Encontrar um arquivo em um diretório específico | find [caminho] --name "*.txt" | find [caminho] -type d -name "lib" |
 | locate  | Buscar arquivos e diretórios | locate "dados.csv" | locate log (retorna todos os arquivos e diretórios com log no nome)
+| history | Exibe o histórico de comandos | history | - |
+| clear   | Limpa o terminal | clear | - |
 
 > Obs: O comando `locate` é uma alternativa do comando `find`, pois ele é mais rápido ao realizar pesquisas. Isso ocorre porque o primeiro apenas verifica seu banco de dados Linux em vez de todo o sistema. Além disso, a sintaxe é relativamente mais fácil de escrever.
 
@@ -83,3 +89,8 @@ Exemplo Prático:
 ```bash
 sudo updatedb
 ```
+
+## Permissões
+
+Os comandos a seguir são comandos que envolve permissões de execução, escrita e leitura no sistema, com base nos grupos e usuários do sistema.
+

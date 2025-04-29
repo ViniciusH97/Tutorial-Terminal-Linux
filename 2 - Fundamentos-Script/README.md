@@ -121,3 +121,60 @@ echo "$idade" # Saída: 20
 ```
 
 ## Estruturas condicionais
+
+No bash podemos utilizar estruturas condicionais com as palavras-chaves `if`, `else` e `elif`. Para realizar comparação numérica, utilizamos (`-gt`, `-lt`, `-ge`, `-le`, `-ne`, `-eq`). É importante usarmos espaços ao digitar `[]` ou `[[]]`, com espaçoes entre as variáveis e os operadores para respeitar a sintáxe do bash. Para fechar o `if` é necessário digitar `fi`, que indicará o término da condicional.
+
+| Operador | Descrição | Equivalência |
+| -------- | --------- | ------------ |
+|   -eq    |   igual   |       =      |
+|   -ne    | diferente |      !=      |
+|   -gt    | maior que |       >      |
+|   -ge    | maior ou igual |   >=    |
+|   -lt    | menor que |       <      |
+|   -le    | menor ou igual |   <=    |
+
+### Estrutura condicional simples
+
+```bash
+if [ $num1 -gt $num2 ]; then         
+    echo "O $num1 é maior que $num2."
+elif [ $num1 -eq $num2 ]; then
+    echo "Os números são iguais."
+elif [ $num1 -lt $num2 ]; then
+    echo "O $num1 é menor que $num2."
+fi
+```
+
+### Estrutura condicional 
+
+```bash
+if [ $num1 -gt $num2 ]; then
+    echo "O $num1 é maior que $num2."
+    if [ $num1 -gt 10 ]; then
+        echo "O $num1 é maior que 10."
+    fi
+elif [ $num1 -eq $num2 ]; then
+    echo "Os números são iguais."
+else
+    echo "O $num1 é menor que $num2."
+fi
+```
+
+## Operadores lógicos
+
+No Bash, além dos operadores de comparação, também usamos operadores lógicos(`&&` e `||`) para combinar múltiplas condições dentro de estruturas
+como `if`, `while`, etc.
+
+#### Por exemplo:
+
+# Estrutura condicional com operador lógico
+
+```bash
+if [ $num1 -gt 10 ] && [ $num2 -gt 10 ]; then
+    echo "Os números são maiores que 10."
+elif [ $num1 -lt 10 ] || [ $num2 -lt 10 ]; then
+    echo "Pelo menos um dos números é menor que 10."
+else
+    echo "Nenhum dos números é maior que 10."
+fi
+```
