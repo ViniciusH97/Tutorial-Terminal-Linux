@@ -178,3 +178,22 @@ else
     echo "Nenhum dos números é maior que 10."
 fi
 ```
+
+Quando se usa `[[ ]]`, você pode escrever de forma mais simples, exemplo:
+
+```bash
+if [[ $a -gt 5 && $b -lt 10 ]]; then
+  echo "Condição verdadeira"
+fi
+```
+
+Porém se estiver apenas utilizando um colchete `[ ]`, podemos separar os testes da seguinte forma:
+
+```bash
+if [ $a -gt 5 ] && [ $b -lt 10 ]; then
+  echo "Condição verdadeira"
+fi
+```
+
+## Estruturas de repetição
+
