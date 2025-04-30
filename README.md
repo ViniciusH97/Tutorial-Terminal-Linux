@@ -22,8 +22,6 @@ No Linux, o shell mais comum é o **Bash (Bourne Again Shell)**, que é amplamen
 
 [Manual Oficial do GNU Bash](https://www.gnu.org/software/bash/manual/).
 
-O 
-
 **Dicas**
 
 Se você quer aprender comandos Linux e se aprofundar com mais explicações curtas e diretas, recomendo dar uma olhada nos projetos:
