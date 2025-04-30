@@ -28,8 +28,6 @@ Se você quer aprender comandos Linux e se aprofundar com mais explicações cur
 
 Esta obra tem a [licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional][cc-by-nc-sa].
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
