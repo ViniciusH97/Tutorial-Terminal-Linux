@@ -4,9 +4,17 @@
 
 ### Vamos criar um script simples que exibe uma mensagem:
 
+Vamos utilizar o editor de texto `nano` para criar um arquivo de com a extensão `.sh`. vamos criar da seguinte forma.
+
+```bash
+nano meu_script
+```
+
+Em seguida pressione Enter. abrirá o editor de texto nano, assim, podemos escrever o primeiro script bash Hello, World!
+
 ```bash
 #!/bin/bash
-echo "Olá, Mundo!"
+echo "Hello, World!"
 ```
 
 > Obs: Não esqueça que de inserir _#!/bin/bash_ sempre deve ser inserido no começo dos scripts bash, para que seja identificado o interpretador.
@@ -24,8 +32,6 @@ Exemplo 1:
 ```bash
 #!/bin/bash
 
-# Meu primeiro script
-
 echo "Olá, Mundo!" # Escreva Olá, Mundo!
 ```
 
@@ -41,9 +47,7 @@ read input1 # Leitura da variável input1
 
 Podemos executar da seguinte forma:
 
-1. Salvamos o arquivo com o nome que você preferir: [nome].sh. Exemplo: meu_script.sh
-
-2. Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos como `chmod`. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
+Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos como `chmod`. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
 
 Exemplo:
 
