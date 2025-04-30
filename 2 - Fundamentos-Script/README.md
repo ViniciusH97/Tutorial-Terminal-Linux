@@ -19,7 +19,7 @@ echo "Olá, Mundo!"
 
 Para realizar um comentário em shell, podemos inserir o carácter especial **#**, e em seguida inserir o comentário desejado.
 
-Exemplo:
+Exemplo 1:
 
 ```bash
 #!/bin/bash
@@ -40,7 +40,9 @@ read input1 # Leitura da variável input1
 ### Como executar o código bash?
 
 Podemos executar da seguinte forma:
+
 1. Salvamos o arquivo com o nome que você preferir: [nome].sh. Exemplo: meu_script.sh
+
 2. Devemos tornar o arquivo executável utilizando o comando **changemode** que na linha de comando utilizamos como `chmod`. Em seguida digitamos *+x* para atribuírmos ao arquivo a permissão de execução.
 
 Exemplo:
