@@ -13,7 +13,7 @@ Este tutorial introduz os conceitos fundamentais de **Bash scripting**.
 ## Introdução ao Shell Scripting
 
 **Shell scripting** permite automatizar tarefas repetitivas, combinar comandos e criar utilitários personalizados para o seu sistema.  
-No Linux, o shell mais comum é o **Bash (Bourne Again SHell)**, que é amplamente usado para criar scripts de automação, administração de sistemas, instalação de pacotes, backups, entre outras tarefas.
+No Linux, o shell mais comum é o **Bash (Bourne Again Shell)**, que é amplamente usado para criar scripts de automação, administração de sistemas, instalação de pacotes, backups, entre outras tarefas.
 
 [Manual Oficial do GNU Bash](https://www.gnu.org/software/bash/manual/).
 
