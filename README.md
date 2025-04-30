@@ -27,4 +27,10 @@ No Linux, o shell mais comum é o **Bash (Bourne Again Shell)**, que é amplamen
 Se você quer aprender comandos Linux e se aprofundar com mais explicações curtas e diretas, recomendo dar uma olhada nos projetos:
 [tldr-pages](https://tldr.sh/), e [Linux man pages online](https://man7.org/linux/man-pages/). Eles fornecem exemplos práticos de uso dos comandos do terminal de forma objetiva.
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Bash Script Tutorial © 2025 by Vinicius Lima is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
+Esta obra tem a [licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
