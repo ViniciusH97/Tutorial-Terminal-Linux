@@ -2,7 +2,7 @@
 
 - [Introdução](#introdução)
 - [Comandos Básicos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/README.md)
-- [Fundamentos Script](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos-Script)
+- [Fundamentos Script](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos%20Script)
 - [Dicas](#Dicas)
 
 #  Introdução ao Terminal Linux 
