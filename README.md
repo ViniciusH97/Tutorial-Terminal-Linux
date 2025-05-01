@@ -1,5 +1,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ViniciusH97/Bash-Script-tutorial)
 
+- [Introdução](#introdução)
+- [Comandos Básicos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/README.md)
+- [Fundamentos Script](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos-Script)
+- [Dicas](#Dicas)
+
 #  Introdução ao Terminal Linux 
 
 ![Linux](https://img.icons8.com/?size=100&id=17842&format=png&color=000000)

@@ -1,5 +1,13 @@
 # Fundamentos de Script Bash
 
+- [Primeiro Script Bash](#criando-o-primeiro-script-bash)
+- [Comentário](#comentário)
+- [Declarar variáveis](#declarar-variáveis)
+- [Remover o valor da variável](#remover-o-valor-da-variável)
+- [Estruturas Condicionais](#estrutura-condicional)
+- [Operadores Lógicos](#operadores-lógicos)
+- [Estruturas de Repetição](#estruturas-de-repetição)
+
 ## Criando o Primeiro Script Bash
 
 ### Vamos criar um script simples que exibe uma mensagem:

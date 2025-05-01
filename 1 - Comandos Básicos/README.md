@@ -1,8 +1,9 @@
 # Comandos básicos em Bash🐧
 
-## Índice
-1. [Comandos de navegação do sistema](#Navegação-do-Sistema)
-2. [Manipulação de arquivos e pastas](#Manipulação-de-arquivos-e-pastas)
+- [Navegação do Sistema](#Navegação-do-Sistema)
+- [Manipulação de arquivos e pastas](#comandos-para-manipulação-de-arquivos-e-pastas)
+- [Visualização do conteúdo de arquivos](#comandos-para-visualização-do-conteúdo-de-arquivos)
+- [Busca em arquivos](#comandos-para-busca-em-arquivos)
 
 O terminal Bash é uma interface de linha de comando (CLI) onde podemos executar comandos para controlar o sistema operacional. Ele é um dos shells mais populares e é comumente utilizado em distribuições Linux.
 
@@ -93,5 +94,9 @@ sudo updatedb
 
 ## Permissões
 
-Os comandos a seguir são comandos que envolve permissões de execução, escrita e leitura no sistema, com base nos grupos e usuários do sistema.
+Os comandos a seguir são comandos que envolve permissões de execução, escrita e leitura no sistema, com base nos grupos e usuários do sistema
+
+Comando `chmod`:
+
+Exemplos:
 
