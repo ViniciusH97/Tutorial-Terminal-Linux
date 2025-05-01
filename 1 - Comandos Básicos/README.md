@@ -14,7 +14,7 @@ Para começar vamos abrir o terminal. Podemos abrir de duas formas:
 1. Acessamos o terminal pelo ícone no desktop.
 2. Acessamos o terminal pressionando as teclas de atalho _Ctrl + Alt + T_.
 
-![image](https://github.com/user-attachments/assets/96317331-2bce-4091-977f-187af0ab36cb)
+![image](https://github.com/user-attachments/assets/0c0cff03-615b-4a94-bbc8-9806799e057d)
 
 ## Comandos essenciais
 
@@ -31,13 +31,16 @@ Para você que está começando a utilizar o terminal, é essencial aprender os 
 Exemplo Prático:
 
 `pwd`
-> ![image](https://github.com/user-attachments/assets/c41b0791-e2cc-4a6f-b799-1be4d6d17f3f)
+
+![image](https://github.com/user-attachments/assets/dda20a3b-c73a-49a3-b3e4-e2a9faa350c4)
 
 `ls`
-> ![image](https://github.com/user-attachments/assets/405abe07-f298-4074-8992-fb55d5939ae1)
+
+![image](https://github.com/user-attachments/assets/3eaecee7-a408-4132-a931-ad48ea60e2ab)
 
 `cd`
-> ![image](https://github.com/user-attachments/assets/77b0e59f-0d78-40bc-9e96-c7225197d181)
+
+![image](https://github.com/user-attachments/assets/51212e2d-8e1e-43ad-86b9-cb5a661e5a78)
 
 ## Comandos para Manipulação de arquivos e pastas
 
