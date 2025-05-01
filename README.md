@@ -1,6 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ViniciusH97/Bash-Script-tutorial)
 
-- [Introdução](#introdução)
+- [Introdução](#introdução-ao-Terminal-Linux)
 - [Comandos Básicos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/README.md)
 - [Fundamentos Script](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos%20Script)
 - [Dicas](#Dicas)
@@ -31,7 +31,7 @@ O Bash (Bourne Again Shell) é o shell padrão na maioria das distribuições Li
 
 Para mais informações do GNU Bash acesse: [Manual Oficial do GNU Bash](https://www.gnu.org/software/bash/manual/).
 
-**Dicas**
+#### Dicas
 
 Se você quer aprender comandos Linux e se aprofundar com mais explicações curtas e diretas, recomendo dar uma olhada nos projetos:
 [tldr-pages](https://tldr.sh/), e [Linux man pages online](https://man7.org/linux/man-pages/). Eles fornecem exemplos práticos de uso dos comandos do terminal de forma objetiva.
