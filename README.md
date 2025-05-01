@@ -8,8 +8,6 @@ O terminal Linux é uma interface de linha de comando (CLI), que permite aos usu
 
 Ao contrário de interfaces gráficas, o terminal oferece maior controle e flexibilidade, sendo amplamente utilizado por desenvolvedores, administradores de sistemas e entusiastas de tecnologia.
 
---
-
 ## Bash Script 
 
 ![Bash](https://img.icons8.com/?size=100&id=9MJf0ngDwS8z&format=png&color=000000)
