@@ -1,9 +1,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ViniciusH97/Bash-Script-tutorial)
 
-## Índice
-
-1 - 
-
 #  Introdução ao Terminal Linux 
 
 ![Linux](https://img.icons8.com/?size=100&id=17842&format=png&color=000000)
