@@ -6,13 +6,13 @@ read escolha
 
 case $escolha in
     1)
-        echo "Operação escolhida: $escolha"
+        echo "Operação escolhida: $escolha" # mostra a operação escolhida
         echo "Digite o primeiro número:"
-        read num1
+        read num1 # leitura do primeiro número
         echo "Digite o segundo número:"
-        read num2
-        soma=$((num1 + num2))
-        echo "Resultado: $num1 + $num2 = $soma"
+        read num2 # leitura do segundo número
+        soma=$((num1 + num2)) # operação de soma
+        echo "Resultado: $num1 + $num2 = $soma" # mostra o resultado da soma
         ;;
     2)
         echo "Operação escolhida: $escolha"
