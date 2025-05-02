@@ -1,16 +1,24 @@
-# Fundamentos de Script Bash
+# 1. Fundamentos de Script Bash
 
-- [Primeiro Script Bash](#criando-o-primeiro-script-bash)
-- [Comentário](#comentário)
-- [Declarar variáveis](#declarar-variáveis)
-- [Remover o valor da variável](#remover-o-valor-da-variável)
-- [Estruturas Condicionais](#estrutura-condicional)
-- [Operadores Lógicos](#operadores-lógicos)
-- [Estruturas de Repetição](#estruturas-de-repetição)
+- [1. Fundamentos de Script Bash](#1-fundamentos-de-script-bash)
+  - [1.1. Criando o Primeiro Script Bash](#11-criando-o-primeiro-script-bash)
+    - [1.1.1. Vamos criar um script simples que exibe uma mensagem:](#111-vamos-criar-um-script-simples-que-exibe-uma-mensagem)
+    - [1.1.2. Comentário](#112-comentário)
+    - [1.1.3. Como executar o código bash?](#113-como-executar-o-código-bash)
+  - [1.2. Variáveis](#12-variáveis)
+    - [1.2.1. Declarar variáveis](#121-declarar-variáveis)
+    - [1.2.2. Remover o valor da variável](#122-remover-o-valor-da-variável)
+  - [1.3. Estruturas condicionais](#13-estruturas-condicionais)
+    - [1.3.1. Estrutura condicional simples](#131-estrutura-condicional-simples)
+    - [1.3.2. Estrutura condicional](#132-estrutura-condicional)
+  - [1.4. Operadores lógicos](#14-operadores-lógicos)
+    - [1.4.1. Exemplo](#141-exemplo)
+    - [1.4.2. Estrutura condicional com operador lógico](#142-estrutura-condicional-com-operador-lógico)
+  - [1.5. Estruturas de repetição](#15-estruturas-de-repetição)
 
-## Criando o Primeiro Script Bash
+## 1.1. Criando o Primeiro Script Bash
 
-### Vamos criar um script simples que exibe uma mensagem:
+### 1.1.1. Vamos criar um script simples que exibe uma mensagem:
 
 Vamos utilizar o editor de texto `nano` para criar um arquivo de com a extensão `.sh`. vamos criar da seguinte forma.
 
@@ -31,7 +39,7 @@ echo "Hello, World!"
 
 > /bin/bash → é o caminho absoluto do interpretador Bash, localizado na pasta /bin.
 
-### Comentário
+### 1.1.2. Comentário
 
 Para realizar um comentário em shell, podemos inserir o carácter especial **#**, e em seguida inserir o comentário desejado.
 
@@ -51,7 +59,7 @@ Exemplo 2:
 read input1 # Leitura da variável input1
 ```
 
-### Como executar o código bash?
+### 1.1.3. Como executar o código bash?
 
 Podemos executar da seguinte forma:
 
@@ -74,7 +82,7 @@ Output:
 Olá, Mundo!
 ```
 
-## Variáveis
+## 1.2. Variáveis
 
 As variáveis podem ser criadas de duas formas, por atribuição no momento do input pela palavra reservada `read`, ou podemos criar atribuindo o valor a variável com um valor específico. Vamos ver os dois exemplos.
 
@@ -86,7 +94,7 @@ read nome # atribuição do valor de entrada(input) nome, conforme o valor digit
 echo "Seu nome é $nome."
 ```
 
-### Declarar variáveis
+### 1.2.1. Declarar variáveis
 
 Outra forma de utilizar as variáveis são atribuir valores de diferentes tipos, como strings, numéricos inteirose e caracteres. A declaração de variáveis não requer um tipo explícito, e também não deve haver espaços ao redor do símbolo especial de atribuição =.
 
@@ -120,7 +128,7 @@ echo "Você tem $idade anos de idade." # Podemos imprimir o valor de uma variáv
 
 ```
 
-### Remover o valor da variável
+### 1.2.2. Remover o valor da variável
 
 Podemos remover o valor da variável utilizando o `unset`.
 
@@ -134,7 +142,7 @@ idade=20 # atribui o valor 20 à variável idade
 echo "$idade" # Saída: 20
 ```
 
-## Estruturas condicionais
+## 1.3. Estruturas condicionais
 
 No bash podemos utilizar estruturas condicionais com as palavras-chaves `if`, `else` e `elif`. Para realizar comparação numérica, utilizamos (`-gt`, `-lt`, `-ge`, `-le`, `-ne`, `-eq`). É importante usarmos espaços ao digitar `[]` ou `[[]]`, com espaçoes entre as variáveis e os operadores para respeitar a sintáxe do bash. Para fechar o `if` é necessário digitar `fi`, que indicará o término da condicional.
 
@@ -147,7 +155,7 @@ No bash podemos utilizar estruturas condicionais com as palavras-chaves `if`, `e
 |   -lt    | menor que |       <      |
 |   -le    | menor ou igual |   <=    |
 
-### Estrutura condicional simples
+### 1.3.1. Estrutura condicional simples
 
 ```bash
 if [ $num1 -gt $num2 ]; then         
@@ -159,7 +167,7 @@ elif [ $num1 -lt $num2 ]; then
 fi
 ```
 
-### Estrutura condicional 
+### 1.3.2. Estrutura condicional 
 
 ```bash
 if [ $num1 -gt $num2 ]; then
@@ -174,14 +182,14 @@ else
 fi
 ```
 
-## Operadores lógicos
+## 1.4. Operadores lógicos
 
 No Bash, além dos operadores de comparação, também usamos operadores lógicos(`&&` e `||`) para combinar múltiplas condições dentro de estruturas
 como `if`, `while`, etc.
 
-### Exemplo
+### 1.4.1. Exemplo
 
-### Estrutura condicional com operador lógico
+### 1.4.2. Estrutura condicional com operador lógico
 
 ```bash
 if [ $num1 -gt 10 ] && [ $num2 -gt 10 ]; then
@@ -193,7 +201,7 @@ else
 fi
 ```
 
-## Estruturas de repetição
+## 1.5. Estruturas de repetição
 
 Estruturas de repetição são utilizadas para executar uma parte do código várias vezes, enquanto uma condição for verdadeira. Podemos desenvolver estruturas de repetição em bash utilizando `for`, `while` e `until`. A estrutura de repetição for é utilizada para iterar sobre uma lista de itens, enquanto a estrutura while executa uma parte do código enquanto uma condição for verdadeira. A estrutura until executa a parte do código enquanto uma condição for falsa.
 
