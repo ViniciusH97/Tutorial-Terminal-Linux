@@ -24,38 +24,50 @@ Confirma se as informações e as transações são legítimas e provém de font
 
 ## Tipos de ataques mais comuns
 
-__*Phishing*__: 
+__*Phishing*__:
+
 Envio de mensagens fraudulentas para capturar credenciais (podem fazer uso da engenharia social).
 
 _**Malware**_:
+
 Softwares maliciosos que danificam ou espionam sistemas (vírus, worms, trojans).  
 
-**Ataques DoS/DDoS**: 
+**Ataques DoS/DDoS**:
+
 Sobrecarga de servidores para torná-los indisponíveis, gerando prejuízo. 
 
 _**Man-in-the-Middle**_ (MitM): 
+
 Interceptação e possível alteração de comunicações.
 
-_**Brute Force**_ (Ataque de força bruta): 
+_**Brute Force**_ (Ataque de força bruta):
+
 Tentativa repentina de senha ou chave criptográfica.
 
 **Engenharia Social**: 
+
 Esse ataque consiste em enganar a vítima para conseguir informações confidenciais, e a partir disso realizar o acesso não autorizado a um sistema. Com o crescente avanço da IA, esse tipo de ateque estão sendo mais sofisticados, exemplo disso, é o uso do deepfake para enganar.
 
 **Exploração de vulnerabilidades _Zero Day_:**
+
 Exploração de vulnerabilidades de software que ainda não foram descobertas e corrigidas.
 
 _**SQL Injection**:_
+
 Consiste na injeção de um script malicioso em uma aplicação para conseguir informações do sistema.
 
 ## Principais categorias de vírus e suas motivações:
 
-**Trojans**: disfarçados de software benigno; motivação financeira ou espionagem.  
+_**Trojans**_: 
+Disfarçados de software; motivação financeira ou espionagem.  
 
-**Worms**: autorreplicantes; muitas vezes usados para sobrecarregar redes.  
+_**Worms**_: 
+Autorreplicantes; muitas vezes usados para sobrecarregar redes.  
 
-**Ransomware**: criptografa dados e exige resgate; motivação financeira.  
+_**Ransomware**_: 
+Criptografa dados e exige resgate; motivação financeira.  
 
-**Spyware**: coleta informações sem o consentimento do usuário; espionagem corporativa ou governamental.  
+_**Spyware**_: 
+Coleta informações sem o consentimento do usuário; espionagem corporativa ou governamental.  
 
 Entender esses conceitos é o primeiro passo para implementar boas práticas e ferramentas que protejam sistemas e garantam a segurança de dados.
