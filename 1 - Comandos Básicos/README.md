@@ -1,9 +1,21 @@
 # Comandos básicos em Bash🐧
 
-- [Navegação do Sistema](#Navegação-do-Sistema)
-- [Manipulação de arquivos e pastas](#comandos-para-manipulação-de-arquivos-e-pastas)
-- [Visualização do conteúdo de arquivos](#comandos-para-visualização-do-conteúdo-de-arquivos)
-- [Busca em arquivos](#comandos-para-busca-em-arquivos)
+- [Comandos básicos em Bash🐧](#comandos-básicos-em-bash)
+  - [Comandos essenciais](#comandos-essenciais)
+  - [Atualização do sistema](#atualização-do-sistema)
+    - [sudo apt update](#sudo-apt-update)
+    - [sudo apt upgrade](#sudo-apt-upgrade)
+    - [Instalação full](#instalação-full)
+    - [sudo apt-get](#sudo-apt-get)
+  - [Buscar pacotes](#buscar-pacotes)
+  - [Instalação de pacotes](#instalação-de-pacotes)
+    - [Instalação de arquivos .deb](#instalação-de-arquivos-deb)
+  - [Navegação do Sistema](#navegação-do-sistema)
+  - [Comandos para Manipulação de arquivos e pastas](#comandos-para-manipulação-de-arquivos-e-pastas)
+  - [Comandos para visualização do conteúdo de arquivos](#comandos-para-visualização-do-conteúdo-de-arquivos)
+  - [Comandos para busca em arquivos](#comandos-para-busca-em-arquivos)
+  - [Comando de busca em diretórios](#comando-de-busca-em-diretórios)
+  - [Permissões](#permissões)
 
 O terminal Bash é uma interface de linha de comando (CLI) onde podemos executar comandos para controlar o sistema operacional. Ele é um dos shells mais populares e é comumente utilizado em distribuições Linux.
 
@@ -19,6 +31,68 @@ Para começar vamos abrir o terminal. Podemos abrir de duas formas:
 ## Comandos essenciais
 
 Para você que está começando a utilizar o terminal, é essencial aprender os comandos básicos do GNU Bash, como comandos de navegação, gerenciar arquivos, ver informações do sistema e até automatização de tarefas. Abaixo poderá ver o comando e seu exemplos de uso.
+
+## Atualização do sistema
+
+Periódicamente precisamos atualizar o sistema para manter as listas e os pacotes atualizados. Utilizamos dois comandos. É recomendado executar um comando após o outro.
+
+### sudo apt update
+
+Atualização da lista de pacotes diponíveis nos repositórios, porém não instala nada:
+
+```bash
+sudo apt update
+```
+### sudo apt upgrade
+
+Após a atualização da lista dos repositórios, ao executar esse comando irá baixar e instalar as versões mais recentes que já estão instalados no sistema.
+
+```bash
+sudo apt upgrade
+```
+
+### Instalação full
+
+Para baixar e instalar os pacotes com versão atualizada podemos utilizar o seguinte comando:
+
+```bash
+sudo apt full-upgrade
+```
+
+### sudo apt-get
+
+Podemos utilizar também o `apt-get` para realizar atualização. O comando é mais antigo, porém é muito utilizado em scripts. Segue abaixo os comandos que podemos utilizar o `apt-get`.
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git # instala o pacote git
+sudo apt-get dist-upgrade # semelhante ao apt full-upgrade
+```
+
+## Buscar pacotes
+
+Para buscarmos um pacote que está instalado no sistema podemos utilizar os seguintes comandos.
+
+**Exemplo**
+
+```bash
+# utilizando apt
+apt search nano # busca pacotes relacionados
+apt show nano # mostra informações do pacote
+
+# utilizando apt-cache
+apt-cache search nano 
+apt-cache show nano
+```
+
+## Instalação de pacotes
+
+As instalações de pacotes dos aplicativos provavelmente ao baixar, veem em fom
+
+### Instalação de arquivos .deb
+
+
 
 ## Navegação do Sistema 
 

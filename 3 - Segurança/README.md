@@ -1,6 +1,7 @@
 - [Segurança da informação](#segurança-da-informação)
   - [Tipos de ataques mais comuns](#tipos-de-ataques-mais-comuns)
   - [Principais categorias de vírus e suas motivações:](#principais-categorias-de-vírus-e-suas-motivações)
+  - [](#)
 
 # Segurança da informação
 
@@ -71,3 +72,5 @@ _**Spyware**_:
 Coleta informações sem o consentimento do usuário; espionagem corporativa ou governamental.  
 
 Entender esses conceitos é o primeiro passo para implementar boas práticas e ferramentas que protejam sistemas e garantam a segurança de dados.
+
+## 
