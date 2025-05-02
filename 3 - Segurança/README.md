@@ -1,9 +1,8 @@
 - [Segurança da informação](#segurança-da-informação)
   - [Tipos de ataques mais comuns](#tipos-de-ataques-mais-comuns)
   - [Principais categorias de vírus e suas motivações:](#principais-categorias-de-vírus-e-suas-motivações)
-  - [](#)
 
-# Segurança da informação
+# Segurança da informação 🛡️
 
 A segurança da informação consiste em proteger dados e sistemas contra acessos não autorizados, alterações indevidas ou interrupções. Seus quatro pilares fundamentais são:
 
