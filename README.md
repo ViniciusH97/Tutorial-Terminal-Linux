@@ -1,6 +1,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ViniciusH97/Bash-Script-tutorial)
 
-1) [Introdução ao Terminal Linux](#introdução-ao-terminal-linux)
 - [Introdução ao Terminal Linux](#introdução-ao-terminal-linux)
   - [Bash Script](#bash-script)
     - [O que é o Bash?](#o-que-é-o-bash)
