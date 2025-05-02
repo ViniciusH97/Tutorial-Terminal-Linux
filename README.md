@@ -38,6 +38,8 @@ Para mais informações do GNU Bash acesse: [Manual Oficial do GNU Bash](https:/
 Se você quer aprender comandos Linux e se aprofundar com mais explicações curtas e diretas, recomendo dar uma olhada nos projetos:
 [tldr-pages](https://tldr.sh/), e [Linux man pages online](https://man7.org/linux/man-pages/). Eles fornecem exemplos práticos de uso dos comandos do terminal de forma objetiva.
 
+Work in progress...
+
 Tutorial Terminal Linux © 2025 by ViniciusH97 is licensed under 
 [CC BY-NC 4.0 ][cc-by-nc].
 
@@ -46,4 +48,3 @@ Tutorial Terminal Linux © 2025 by ViniciusH97 is licensed under
 [cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
-
