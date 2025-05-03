@@ -6,6 +6,9 @@
     - [Como funciona?](#como-funciona)
     - [Por que usar?](#por-que-usar)
     - [Dicas](#dicas)
+- [Comandos Básicos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/1%20-%20Comandos%20B%C3%A1sicos)
+- [Fundamentos Scripts](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos%20Script)
+- [Segurança](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/3%20-%20Seguran%C3%A7a)
 
 #  Introdução ao Terminal Linux 
 
