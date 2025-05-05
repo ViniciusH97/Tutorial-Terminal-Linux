@@ -15,7 +15,7 @@
     - [1.4.1. Exemplo](#141-exemplo)
     - [1.4.2. Estrutura condicional com operador lógico](#142-estrutura-condicional-com-operador-lógico)
   - [1.5. Estruturas de repetição](#15-estruturas-de-repetição)
-  - [Entrada de usuário](#entrada-de-usuário)
+  - [1.6. Entrada de usuário](#16-entrada-de-usuário)
 
 ## 1.1. Criando o Primeiro Script Bash
 
@@ -246,7 +246,7 @@ until [ $cont -gt 10 ]; do
 done
 ```
 
-## Entrada de usuário
+## 1.6. Entrada de usuário
 
 Podemos receber um valor com a entrada do usuário. Para realizarmos a leitura da entrada do usuário utilizamos o `read` para a leitura. O comando `-p` usamos para mostrar e determinamos a variável que ira receber o valor após o texto, no exemplo abaixo é criado a variável `nome`.
 
