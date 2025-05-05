@@ -18,30 +18,35 @@
   - [1.6. Entrada de usuário](#16-entrada-de-usuário)
   - [1.7. Parâmetros de argumentos](#17-parâmetros-de-argumentos)
     - [Exemplo: Script com argumentos](#exemplo-script-com-argumentos)
-  - [1.8. Funções em bash](#18-funções-em-bash)
+  - [1.8. Funções](#18-funções)
+  - [1.9. Arrays](#19-arrays)
+    - [Declarando um array](#declarando-um-array)
+  - [Outros comandos](#outros-comandos)
 
 ## 1.1. Criando o Primeiro Script Bash
 
 ### 1.1.1. Vamos criar um script simples que exibe uma mensagem:
 
-Vamos utilizar o editor de texto `nano` para criar um arquivo de com a extensão `.sh`. vamos criar da seguinte forma.
+Podemos utilizar o editor de texto `nano` nativo do shell, ou pode utilizar outro editor de texto de sua escolha, como o Visual Studio Code por exemplo, criamos um arquivo com a extensão `.sh`. Vamos criar da seguinte forma.
 
+Com o editor de texto `nano`:
 ```bash
 nano meu_script
 ```
-
 Em seguida pressione Enter. abrirá o editor de texto nano, assim, podemos escrever o primeiro script bash Hello, World!
-
 ```bash
 #!/bin/bash
 echo "Hello, World!"
 ```
+Após editar o arquivo devemos salvar o nome do arquivo
 
 > Obs: Não esqueça que de inserir _#!/bin/bash_ sempre deve ser inserido no começo dos scripts bash, para que seja identificado o interpretador.
 
 > #! → é o shebang, um marcador especial que informa ao sistema operacional que o arquivo deve ser executado por um interpretador específico.
 
 > /bin/bash → é o caminho absoluto do interpretador Bash, localizado na pasta /bin.
+
+Em outro editor de texto, basta criar o arquivo com a extensão `.sh`, incluir com o código acima e salvar. 
 
 ### 1.1.2. Comentário
 
@@ -302,7 +307,7 @@ Executar script:
 ./script.sh argumento1 argumento2
 ```
 
-> Não esqueça de determinar a permissão de execução do arquivo .sh utilizando o comando chmod +x
+> Não esqueça de determinar a permissão de execução do arquivo .sh utilizando o comando chmod
 
 Output:
 ```
@@ -341,7 +346,7 @@ Quantidade de argumentos: 3
 Todos os argumentos passados: teste1 teste2 teste3
 ```
 
-## 1.8. Funções em bash
+## 1.8. Funções
 
 As funções em Bash nos permite organizar o código em blocos. Segue abaixo o seguinte exemplo de um função:
 
@@ -376,3 +381,56 @@ Output:
 ```
 Você é menor de idade.
 ```
+
+## 1.9. Arrays
+
+Arrays no Bash permitem armazenar múltiplos valores em uma única variável. Eles são úteis para manipular listas de dados de forma eficiente.
+
+### Declarando um array
+
+Para criar um array, usamos parênteses `()` e separamos os valores por espaços.
+
+```bash
+#!/bin/bash
+
+array=("valor1" "valor2" "valor3")
+```
+Para acessarmos os valores da array utilizamos os índices, que começam com o núemro `0`.
+
+```bash
+echo "Primeiro valor: ${array[0]}"
+echo "Segundo valor: ${array[1]}"
+```
+
+Para exibirmos todos os valores da array utilizamos a símbolo especial `@`.
+```bash
+echo "Todos os valores da array: ${array[@]}"
+```
+Adicionar elemento no array:
+```bash
+array+=("valor4")
+```
+Remover elemento do array:
+```bash
+unset array[2] # remove o terceiro elemento
+```
+Iterando sobre um array
+```bash
+for i in "${array[@]}"; do
+    echo "$valor"
+done
+```
+
+## Outros comandos
+
+**sleep**
+
+O comando `sleep` pausa a axecução no tempo especificado em segundos.
+
+**Exemplo:**
+```bash
+sleep 3
+```
+**date**
+O coaando `date` exibe a data e a hora atual.
+
