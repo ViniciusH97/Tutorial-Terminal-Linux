@@ -16,6 +16,9 @@
     - [1.4.2. Estrutura condicional com operador lógico](#142-estrutura-condicional-com-operador-lógico)
   - [1.5. Estruturas de repetição](#15-estruturas-de-repetição)
   - [1.6. Entrada de usuário](#16-entrada-de-usuário)
+  - [1.7. Parâmetros de argumentos](#17-parâmetros-de-argumentos)
+    - [Exemplo: Script com argumentos](#exemplo-script-com-argumentos)
+  - [1.8. Funções em bash](#18-funções-em-bash)
 
 ## 1.1. Criando o Primeiro Script Bash
 
@@ -253,6 +256,123 @@ Podemos receber um valor com a entrada do usuário. Para realizarmos a leitura d
 Por exemplo:
 
 ```bash
+#!/bin/bash
 read -p "Digite seu nome: " nome
 echo "Olá, $nome!"
+```
+
+Output:
+
+```
+Digite seu nome: Pedro
+Olá, Pedro!
+```
+
+Se não quiser exibir a mensagem basta usar apenas o comando `read` sem a opção `-p`. Nesse caso, o usuário digita diretamente e o valor será armazedad na variável.
+
+Por exemplo:
+
+```bash
+#!/bin/bash
+read idade 
+echo "Você tem $idade anos de idade."
+```
+
+Output:
+```
+20
+Você tem 20 anos de idade.
+```
+
+## 1.7. Parâmetros de argumentos
+
+No bash podemos passar argumentos para qualquer script diretamente na linha de comando. Esses argumentos podem ser acessados por meio de variáveis especiais, como `$1`, `$2`, `$3`, etc, onde o número representa a posição de cada argumento.
+
+### Exemplo: Script com argumentos
+
+```bash
+#!/bin/bash
+
+echo "O primeiro argumento é: $1"
+echo "O segundo argumento é: $2"
+```
+
+Executar script:
+```bash
+./script.sh argumento1 argumento2
+```
+
+> Não esqueça de determinar a permissão de execução do arquivo .sh utilizando o comando chmod +x
+
+Output:
+```
+O primeiro argumento é: argumento1
+O segundo argumento é: argumento2
+```
+
+As variáveis especiais utilizadas em argumentos são:
+
+| Variável especial | Descrição |
+| ----------------- | --------- |
+| $0                | Nome do script |
+| $#                | Quantidade de argumentos passados |
+| $@                | Lista todos os argumentos passados |
+| $*                | Lista todos os argumentos como uma única string |
+| "$@"              | Cada argumento como uma string separada |
+| "$*"              | Todos os argumento  como uma única string |
+
+Exemplo de utilização das variáveis de listagem de argumentos.
+
+```bash
+#!/bin/bash
+
+echo "Quantidade de argumentos: $#"
+echo "Todos os argumentos passados: $@"
+```
+
+Executando:
+```bash
+./script.sh teste1 teste2 teste3
+```
+
+Output:
+```
+Quantidade de argumentos: 3
+Todos os argumentos passados: teste1 teste2 teste3
+```
+
+## 1.8. Funções em bash
+
+As funções em Bash nos permite organizar o código em blocos. Segue abaixo o seguinte exemplo de um função:
+
+```bash
+minha_funcao(){
+    # código da função
+}
+```
+
+Utilizando o argumento, na função menor de idade
+
+```bash
+#!/bin/bash
+verificar_idade(){
+    if [ "$1" -ge 18 ]; then
+        echo "Você é maior de idade."
+    elif [ "$1" -lt 18 ]; then
+        echo "Você é menor de idade."
+    else
+        echo "Entrada inválida."
+    fi
+}
+```
+
+Executando o script:
+```bash
+./verificar_maior_idade.sh 12
+```
+
+Output:
+
+```
+Você é menor de idade.
 ```
