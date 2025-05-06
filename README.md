@@ -1,15 +1,26 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ViniciusH97/Bash-Script-tutorial)
 
+**Objetivo do projeto**
+
+A finalidade desse repositório é destinado ao aprendizado próprio e compartilhamento de conhecimento para iniciantes que queiram focar na área de infrastrutura e segurança utilizando a linha de comando do _Linux_.
+
+**O que vou encontrar nesse repositório?**
+
+Nesse repositório você irá encontrar comandos essenciais no terminal shell para diversas finalidades, como: manipulação de arquivos e diretórios, comandos de visualização d informações do sistema, desenvolvimento de scripts e seus conceitos básicos, ferramentas usadas em segurança e infraestrutura e como utiliza-las.
+
+Navegue pela documentação clicando nos tópicos do índice abaixo:
+
+**Índice:**
 - [Introdução ao Terminal Linux](#introdução-ao-terminal-linux)
   - [Bash Script](#bash-script)
     - [O que é o Bash?](#o-que-é-o-bash)
     - [Como funciona?](#como-funciona)
     - [Por que usar?](#por-que-usar)
     - [Dicas](#dicas)
-- [Comandos Básicos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/1%20-%20Comandos%20B%C3%A1sicos)
-- [Fundamentos Scripts](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos%20Script)
-- [Segurança](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/3%20-%20Seguran%C3%A7a)
-
+---
+- [Comandos Básicos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/README.md)
+- [Fundamentos de Script](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos%20Script)
+- [Segurança]()
 #  Introdução ao Terminal Linux 
 
 ![Linux](https://img.icons8.com/?size=100&id=17842&format=png&color=000000)

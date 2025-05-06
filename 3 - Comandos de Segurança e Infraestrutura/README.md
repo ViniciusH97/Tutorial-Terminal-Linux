@@ -1,6 +1,8 @@
-- [Segurança da informação](#segurança-da-informação)
+- [Segurança da informação 🛡️](#segurança-da-informação-️)
   - [Tipos de ataques mais comuns](#tipos-de-ataques-mais-comuns)
   - [Principais categorias de vírus e suas motivações:](#principais-categorias-de-vírus-e-suas-motivações)
+- [Ferramentas CLI](#ferramentas-cli)
+  - [Ferramentas de Segurança Defensiva](#ferramentas-de-segurança-defensiva)
 
 # Segurança da informação 🛡️
 
@@ -72,4 +74,14 @@ Coleta informações sem o consentimento do usuário; espionagem corporativa ou 
 
 Entender esses conceitos é o primeiro passo para implementar boas práticas e ferramentas que protejam sistemas e garantam a segurança de dados.
 
-## 
+# Ferramentas CLI
+
+Existem ferramentas prontas que podem ser utilizadas paa escanear redes, portas, realizar testes de força bruta(brute force) ou até pesquisas avançadas. Podemos dividir essas ferramentas em dois tipos: Ferramentas de segurança ofensiva e Ferramentas de segurança defensiva.
+
+Nesse documento você verá quais são as ferramentas mais utilizadas e como podemos utilizar cada uma delas usar suas funcionalidades.
+
+As ferramentas mencionadas não podem estar disponíveis no repositório do sistema, então deve ser realizada a instalação utilizando o comando [sudo apt install]()
+
+---
+
+## Ferramentas de Segurança Defensiva
