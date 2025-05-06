@@ -129,7 +129,7 @@ Estes comandos
 | rmdir | Remove diretório vazio | `rmdir fotos` |
 | mv | Move ou renomeia arquivos/diretórios | `mv nota.txt /home/user/Documents/` |
 
-> Obs: É recomendado testar esses comandos em algum sistema operacional Linux. Você pode criar e excluir pastas, criar arquivos vazios, navegar pelos diretórios etc. A medida que vai utilizando os comandos, fica mais fácil manipular o sistema.
+> Obs: É recomendado testar esses comandos em alguma distribuição do linux, como: Ubuntu, Debian, Fedora, Arch Linux, entre outros. Você pode criar e excluir pastas, criar arquivos vazios, navegar pelos diretórios etc. A medida que vai utilizando os comandos, fica mais fácil navegar pelo sistema diretamente na linha de comando.
 
 ## Comandos para visualização do conteúdo de arquivos
 
