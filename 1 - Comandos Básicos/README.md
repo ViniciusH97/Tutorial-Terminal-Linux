@@ -88,9 +88,9 @@ apt-cache show nano
 
 ## Instalação de pacotes
 
-As instalações de pacotes dos aplicativos provavelmente ao baixar, veem em fom
+A instalação de pacotes no Linux permite adicionar softwares e ferramentas que podem ser utilizados no sistema. Existem diferentes formas de realizar a instalação, dependendo do formato do pacote e da sua disponibilidade, por exemplo, se é um arquivo `.deb` ou se o pacote está disponível diretamente no repositório oficial da distribuição utilizada.
 
-### Instalação de arquivos .deb
+### Intalação de pacote .deb
 
 
 
