@@ -57,7 +57,7 @@ Exemplo 1:
 ```bash
 #!/bin/bash
 
-echo "Olá, Mundo!" # Escreva Olá, Mundo!
+echo "Hello, World!" # Escreva Hello, World!
 ```
 
 Exemplo 2:
@@ -88,7 +88,7 @@ E execute utilizando:
 
 Output:
 ```
-Olá, Mundo!
+Hello, World!
 ```
 
 ## 1.2. Variáveis
@@ -395,7 +395,7 @@ Para criar um array, usamos parênteses `()` e separamos os valores por espaços
 
 array=("valor1" "valor2" "valor3")
 ```
-Para acessarmos os valores da array utilizamos os índices, que começam com o núemro `0`.
+Para acessarmos os valores da array utilizamos os índices, que começam com o número `0`.
 
 ```bash
 echo "Primeiro valor: ${array[0]}"
@@ -432,5 +432,4 @@ O comando `sleep` pausa a axecução no tempo especificado em segundos.
 sleep 3
 ```
 **date**
-O coaando `date` exibe a data e a hora atual.
-
+O comando `date` exibe a data e a hora atual.
