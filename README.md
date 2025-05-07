@@ -37,7 +37,7 @@ Bash scripts são arquivos de texto que contêm uma sequência de comandos execu
 ### O que é o Bash? 
 O Bash (Bourne Again Shell) é o shell padrão na maioria das distribuições Linux e faz parte do projeto GNU, que fornece as ferramentas básicas ao sistema.
 ### Como funciona?
-1. Você digita um comando (ou executa um script).  
+1. Você digita um comando ou executa um script.  
 2. O Bash interpreta esse comando.  
 3. Converte-o em chamadas de sistema que o kernel Linux processa.
 ### Por que usar?
