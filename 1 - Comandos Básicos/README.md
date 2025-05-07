@@ -9,7 +9,9 @@
     - [sudo apt-get](#sudo-apt-get)
   - [Buscar pacotes](#buscar-pacotes)
   - [Instalação de pacotes](#instalação-de-pacotes)
-    - [Instalação de arquivos .deb](#instalação-de-arquivos-deb)
+    - [Pacotes .deb](#pacotes-deb)
+    - [Pacotes do repositório](#pacotes-do-repositório)
+    - [Removendo pacotes do repositório](#removendo-pacotes-do-repositório)
   - [Navegação do Sistema](#navegação-do-sistema)
   - [Comandos para Manipulação de arquivos e pastas](#comandos-para-manipulação-de-arquivos-e-pastas)
   - [Comandos para visualização do conteúdo de arquivos](#comandos-para-visualização-do-conteúdo-de-arquivos)
@@ -88,12 +90,51 @@ apt-cache show nano
 
 ## Instalação de pacotes
 
-A instalação de pacotes no Linux permite adicionar softwares e ferramentas que podem ser utilizados no sistema. Existem diferentes formas de realizar a instalação, dependendo do formato do pacote e da sua disponibilidade, por exemplo, se é um arquivo `.deb` ou se o pacote está disponível diretamente no repositório oficial da distribuição utilizada.
+As instalações de pacotes dos aplicativos provavelmente ao baixar, veem em fom
 
-### Instalação de arquivos .deb
+### Pacotes .deb
 
+Se você já baixou algum sofware utilizando o Linux, deve ter se deparado com o arquivo em formato `.deb`, esse é um formato de pacotes de instalação usados por distribuições baseadas em Debian, como: Ubuntu, Kali Linux, Linux Mint, Parrot OS etc. Esse pacote já contém todas as bibliotecas e dependências para executar o programa corretamente.
 
+**Como instalar pacotes .deb?**
 
+Podemos instalar de duas formas, segue abaixo o primeiro exemplo utilizando o comando `dpkg`:
+
+```bash
+sudo dpkg -i arquivo.deb
+```
+A segunda forma seria a utilização do comando `apt`:
+```bash
+sudo apt install arquivo.deb
+```
+### Pacotes do repositório
+Pacotes do repositório são programas que já estão disponíveis nos repositórios oficiais da distribuição do seu sistema, ou seja, são seguros para ser instalados diretamente com o uso do CLI (Comman Line Interface). Esses programas são atualizados automaticamente ao rodar o comando `sudo apt update && sudo apt upgrade`.
+
+**Como instalar pacotes do repositório?**
+Você pode utilizar o `apt` ou o `apt-get`. O mais comum é o `apt`.
+
+Exemplo:
+
+```bash
+sudo apt update # atualização da lista de pacotes
+sudo apt install nome_do_pacote
+```
+### Removendo pacotes do repositório
+Para remover pacotes utilizamos o comando `remove` por exemplo:
+```bash
+sudo apt remove nome_do_pacote
+```
+Caso queira remover o arquivos de configuração do pacote utilize o comando `purge`:
+```bash
+sudo apt purge nome_do_pacote
+```
+Após a remoção, é recomendado remover as dependências que não são mais utilizadas, então executamos o comando:
+```bash
+sudo apt autoremove
+```
+**Observação: ** 
+>Nem todos os programas estarão no repositório da distribuição. Às vezes é preciso adicionar um repositório externo ou instalar um .deb manualmente.
+>Sempre rode sudo apt update antes de instalar algo, pra garantir que você está pegando a versão mais atual.
 ## Navegação do Sistema 
 
 | Comando      | Descrição |
@@ -129,7 +170,7 @@ Estes comandos
 | rmdir | Remove diretório vazio | `rmdir fotos` |
 | mv | Move ou renomeia arquivos/diretórios | `mv nota.txt /home/user/Documents/` |
 
-> Obs: É recomendado testar esses comandos em alguma distribuição do linux, como: Ubuntu, Debian, Fedora, Arch Linux, entre outros. Você pode criar e excluir pastas, criar arquivos vazios, navegar pelos diretórios etc. A medida que vai utilizando os comandos, fica mais fácil navegar pelo sistema diretamente na linha de comando.
+> Obs: É recomendado testar esses comandos em algum sistema operacional Linux. Você pode criar e excluir pastas, criar arquivos vazios, navegar pelos diretórios etc. A medida que vai utilizando os comandos, fica mais fácil manipular o sistema.
 
 ## Comandos para visualização do conteúdo de arquivos
 
