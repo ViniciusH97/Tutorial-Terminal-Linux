@@ -1,4 +1,4 @@
-- [Segurança da informação 🛡️](#segurança-da-informação-️)
+- [Segurança da informação](#segurança-da-informação-️)
   - [Tipos de ataques mais comuns](#tipos-de-ataques-mais-comuns)
   - [Principais categorias de vírus e suas motivações:](#principais-categorias-de-vírus-e-suas-motivações)
 - [Ferramentas CLI](#ferramentas-cli)
