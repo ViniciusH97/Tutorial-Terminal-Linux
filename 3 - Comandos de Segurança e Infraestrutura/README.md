@@ -2,7 +2,29 @@
   - [Tipos de ataques mais comuns](#tipos-de-ataques-mais-comuns)
   - [Principais categorias de vírus e suas motivações:](#principais-categorias-de-vírus-e-suas-motivações)
 - [Ferramentas CLI](#ferramentas-cli)
-  - [Ferramentas de Segurança Defensiva](#ferramentas-de-segurança-defensiva)
+  - [Ferramentas de Segurança Defensiva CLI](#ferramentas-de-segurança-defensiva-cli)
+    - [Firewalls e Controle de Rede](#firewalls-e-controle-de-rede)
+      - [nftables](#nftables)
+      - [firewalld](#firewalld)
+      - [pf](#pf)
+      - [sshguard:](#sshguard)
+    - [Monitoramento e Detecção de Intrusão](#monitoramento-e-detecção-de-intrusão)
+      - [Snort](#snort)
+      - [Suricata](#suricata)
+      - [OSSEC:](#ossec)
+      - [Wazuh](#wazuh)
+      - [Tripwire](#tripwire)
+      - [Aide](#aide)
+      - [RKHunter (Rootkit Hunter)](#rkhunter-rootkit-hunter)
+      - [Chkrootkit](#chkrootkit)
+      - [Lynis](#lynis)
+    - [Análise de Vulnerabilidades](#análise-de-vulnerabilidades)
+      - [OpenVAS:](#openvas)
+      - [Nikto](#nikto)
+      - [Nmap](#nmap)
+      - [WPScan](#wpscan)
+    - [sqlmap](#sqlmap)
+    - [Criptografia e Segurança de Dados](#criptografia-e-segurança-de-dados)
 
 # Segurança da informação 🛡️
 
@@ -84,4 +106,52 @@ As ferramentas mencionadas não podem estar disponíveis no repositório do sist
 
 ---
 
-## Ferramentas de Segurança Defensiva
+## Ferramentas de Segurança Defensiva CLI
+### Firewalls e Controle de Rede
+
+#### nftables
+Sucessor moderno do iptables, com sintaxe mais clara e melhor desempenho
+#### firewalld
+Frontend para nftables/iptables que facilita o gerenciamento de regras
+#### pf
+Packet Filter, firewall padrão em sistemas BSD
+fail2ban: Monitora logs e bane IPs que mostram comportamento malicioso
+#### sshguard: 
+Protege serviços de ataques de força bruta monitorando logs
+
+### Monitoramento e Detecção de Intrusão
+
+#### Snort
+Sistema de detecção e prevenção de intrusão (IDS/IPS)
+#### Suricata
+IDS/IPS de alto desempenho com suporte a multi-threading
+#### OSSEC:
+Sistema de detecção de intrusão baseado em host (HIDS)
+#### Wazuh
+Fork do OSSEC com recursos adicionais
+#### Tripwire
+Verifica integridade de arquivos para detectar modificações
+#### Aide
+Sistema de detecção de intrusão baseado em checagem de integridade
+#### RKHunter (Rootkit Hunter)
+Ferramenta para detecção de rootkits
+#### Chkrootkit
+Detecta rootkits localmente
+#### Lynis
+Ferramenta de auditoria de segurança e hardening
+
+### Análise de Vulnerabilidades
+
+#### OpenVAS:
+Framework aberto para escaneamento de vulnerabilidades
+#### Nikto
+Scanner de vulnerabilidades para servidores web
+#### Nmap 
+Scanner de portas e descoberta de rede com scripts NSE
+#### WPScan
+Scanner de vulnerabilidades específico para WordPress
+### sqlmap
+Ferramenta para detecção e exploração de vulnerabilidades SQL Injection
+
+### Criptografia e Segurança de Dados
+
