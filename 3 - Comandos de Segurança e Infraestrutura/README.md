@@ -102,7 +102,7 @@ Existem ferramentas prontas que podem ser utilizadas paa escanear redes, portas,
 
 Nesse documento você verá quais são as ferramentas mais utilizadas e como podemos utilizar cada uma delas usar suas funcionalidades.
 
-As ferramentas mencionadas não podem estar disponíveis no repositório do sistema, então deve ser realizada a instalação utilizando o comando `sudo apt install`
+As ferramentas mencionadas não podem estar disponíveis no repositório do sistema, então deve ser realizada a instalação utilizando o comando `sudo apt install [nome do pacote]`
 
 ---
 
