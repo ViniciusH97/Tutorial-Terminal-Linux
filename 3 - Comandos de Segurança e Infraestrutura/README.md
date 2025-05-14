@@ -121,36 +121,47 @@ Protege serviços de ataques de força bruta monitorando logs
 
 ### Monitoramento e Detecção de Intrusão
 
-#### Snort
+*Snort*
 Sistema de detecção e prevenção de intrusão (IDS/IPS)
 #### Suricata
 IDS/IPS de alto desempenho com suporte a multi-threading
-#### OSSEC:
+
+*OSSEC:*
 Sistema de detecção de intrusão baseado em host (HIDS)
-#### Wazuh
+
+*Wazuh*
 Fork do OSSEC com recursos adicionais
-#### Tripwire
+
+*Tripwire*
 Verifica integridade de arquivos para detectar modificações
-#### Aide
+
+*Aide*
 Sistema de detecção de intrusão baseado em checagem de integridade
-#### RKHunter (Rootkit Hunter)
+
+*RKHunter (Rootkit Hunter)*
 Ferramenta para detecção de rootkits
-#### Chkrootkit
+
+*Chkrootkit*
 Detecta rootkits localmente
-#### Lynis
+
+*Lynis*
 Ferramenta de auditoria de segurança e hardening
 
 ### Análise de Vulnerabilidades
 
-#### OpenVAS:
+*OpenVAS:*
 Framework aberto para escaneamento de vulnerabilidades
-#### Nikto
+
+*Nikto*
 Scanner de vulnerabilidades para servidores web
-#### Nmap 
+
+*Nmap*
 Scanner de portas e descoberta de rede com scripts NSE
-#### WPScan
+
+*WPScan*
 Scanner de vulnerabilidades específico para WordPress
-### sqlmap
+
+*sqlmap*
 Ferramenta para detecção e exploração de vulnerabilidades SQL Injection
 
 ### Criptografia e Segurança de Dados
