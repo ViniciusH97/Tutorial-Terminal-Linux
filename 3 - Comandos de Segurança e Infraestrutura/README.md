@@ -44,7 +44,7 @@ Mantém os dados e serviços acessíveis sempre que necessários. Estratégias d
 
  **Autenticidade**  
 
-Confirma se as informações e as transações são legítimas e provém de fontes confiáveis. Muitas vezes requer certificados digitais, autenticação de dois fatores (2FA) e protocolos de handshake que garantem aosremetentes e destinatários sejam quem dizem ser.
+Confirma se as informações e as transações são legítimas e provém de fontes confiáveis. Muitas vezes requer certificados digitais, autenticação de dois fatores (2FA) e protocolos de handshake que garantem aos remetentes e destinatários sejam quem dizem ser.
 
 ## Tipos de ataques mais comuns
 
