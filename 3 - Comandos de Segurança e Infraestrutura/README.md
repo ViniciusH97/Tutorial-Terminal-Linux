@@ -70,7 +70,7 @@ Tentativa repentina de senha ou chave criptográfica.
 
 **Engenharia Social**: 
 
-Esse ataque consiste em enganar a vítima para conseguir informações confidenciais, e a partir disso realizar o acesso não autorizado a um sistema. Com o crescente avanço da IA, esse tipo de ateque estão sendo mais sofisticados, exemplo disso, é o uso do deepfake para enganar.
+Esse ataque consiste em enganar a vítima para conseguir informações confidenciais, e a partir disso realizar o acesso não autorizado a um sistema. Com o crescente avanço da IA, esse tipo de ateque estão se tonando cada vez mais mais sofisticados, exemplo disso, é o uso do deepfake.
 
 **Exploração de vulnerabilidades _Zero Day_:**
 
@@ -109,21 +109,25 @@ As ferramentas mencionadas não podem estar disponíveis no repositório do sist
 ## Ferramentas de Segurança Defensiva CLI
 ### Firewalls e Controle de Rede
 
-#### nftables
+*nftables*
 Sucessor moderno do iptables, com sintaxe mais clara e melhor desempenho
-#### firewalld
+
+*firewalld*
 Frontend para nftables/iptables que facilita o gerenciamento de regras
-#### pf
+
+*pf*
 Packet Filter, firewall padrão em sistemas BSD
 fail2ban: Monitora logs e bane IPs que mostram comportamento malicioso
-#### sshguard: 
+
+*sshguard:*
 Protege serviços de ataques de força bruta monitorando logs
 
 ### Monitoramento e Detecção de Intrusão
 
 *Snort*
 Sistema de detecção e prevenção de intrusão (IDS/IPS)
-#### Suricata
+
+*Suricata
 IDS/IPS de alto desempenho com suporte a multi-threading
 
 *OSSEC:*
