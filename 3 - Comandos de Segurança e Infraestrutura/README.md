@@ -110,7 +110,7 @@ Protege serviços de ataques de força bruta monitorando logs
 *Snort*
 Sistema de detecção e prevenção de intrusão (IDS/IPS)
 
-*Suricata
+*Suricata*
 IDS/IPS de alto desempenho com suporte a multi-threading
 
 *OSSEC:*
