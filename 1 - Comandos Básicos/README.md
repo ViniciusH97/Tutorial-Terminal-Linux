@@ -132,7 +132,7 @@ Após a remoção, é recomendado remover as dependências que não são mais ut
 ```bash
 sudo apt autoremove
 ```
-**Observação: ** 
+**Observação:**
 >Nem todos os programas estarão no repositório da distribuição. Às vezes é preciso adicionar um repositório externo ou instalar um .deb manualmente.
 >Sempre rode sudo apt update antes de instalar algo, pra garantir que você está instalando a versão mais atual.
 ## Navegação do Sistema 
