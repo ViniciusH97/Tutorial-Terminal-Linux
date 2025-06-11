@@ -134,7 +134,7 @@ sudo apt autoremove
 ```
 **Observação: ** 
 >Nem todos os programas estarão no repositório da distribuição. Às vezes é preciso adicionar um repositório externo ou instalar um .deb manualmente.
->Sempre rode sudo apt update antes de instalar algo, pra garantir que você está pegando a versão mais atual.
+>Sempre rode sudo apt update antes de instalar algo, pra garantir que você está instalando a versão mais atual.
 ## Navegação do Sistema 
 
 | Comando      | Descrição |
