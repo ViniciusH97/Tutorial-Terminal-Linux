@@ -6,7 +6,7 @@ A finalidade desse repositório é destinado ao aprendizado próprio e compartil
 
 **O que vou encontrar nesse repositório?**
 
-Nesse repositório você irá encontrar comandos essenciais no terminal shell para diversas finalidades, como: manipulação de arquivos e diretórios, comandos de visualização d informações do sistema, desenvolvimento de scripts e seus conceitos básicos, ferramentas usadas em segurança, manipulação do sistema, automatização e configuração de redes.
+Nesse repositório você irá encontrar comandos essenciais no terminal shell para diversas finalidades, como: manipulação de arquivos e diretórios, comandos de visualização de informações do sistema, desenvolvimento de scripts e seus conceitos básicos, ferramentas usadas em segurança, manipulação do sistema, automatização e configuração de redes.
 
 Navegue pela documentação clicando nos tópicos do índice abaixo:
 
