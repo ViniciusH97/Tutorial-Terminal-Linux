@@ -52,7 +52,7 @@ Com esses comandos, você poderá realizar buscas de arquivos, diretórios e pad
 | Comando | Descrição | Exemplo 1 | Exemplo 2 |
 | ------- | -------- | --------- | --------- |
 | grep    | Faz uma busca de um padrão específico em arquivos | grep "date" [caminho do arquivo] | grep "usuário" *.txt |
-| egrep   | Busca padrões em arquivos usando expressões regulares, este comando equivale ao egrep -E, já que o mesmo está absoleto. | egrep "palavra" log.txt | egrep "palavra" [caminho1] [caminho2] |
+| egrep   | Busca padrões em arquivos usando expressões regulares, este comando equivale ao egrep -E, já que o mesmo está obsoleto. | egrep "palavra" log.txt | egrep "palavra" [caminho1] [caminho2] |
 | awk '{print $[coluna]}' | Exibe a uma coluna específica de um arquivo | awk '{print $2}' log.txt | awk '/error/ {print $0}' log.txt |
 
 ## Comando de busca em diretórios
