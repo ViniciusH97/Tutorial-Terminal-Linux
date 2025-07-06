@@ -53,7 +53,7 @@ Tentativa repentina de senha ou chave criptográfica.
 
 **Engenharia Social**: 
 
-Esse ataque consiste em enganar a vítima para conseguir informações confidenciais, e a partir disso realizar o acesso não autorizado a um sistema. Com o crescente avanço da IA, esse tipo de ateque estão se tonando cada vez mais mais sofisticados, exemplo disso, é o uso do deepfake.
+Esse ataque consiste em enganar a vítima para conseguir informações confidenciais, e a partir disso realizar o acesso não autorizado a um sistema. Com o crescente avanço da IA, esse tipo de ataque estão se tornando cada vez mais sofisticados, exemplo disso, é o uso do deepfake.
 
 **Exploração de vulnerabilidades _Zero Day_:**
 
