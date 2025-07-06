@@ -224,7 +224,7 @@ Este comando exibirá as permissões de leitura, escrita e execução de cada ar
 - Grupo (g) grupo do dono
 - Outros (o) os demais usuários
 
-[image]
+![image](https://github.com/user-attachments/assets/7698ae95-1797-4324-9598-8d6a1e62af22)
 
 **Exemplo:**
 | - | rwx | rwx | r-x |
