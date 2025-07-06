@@ -2,14 +2,14 @@
 
 - [Comandos básicos em Bash🐧](#comandos-básicos-em-bash)
   - [Comandos essenciais](#comandos-essenciais)
-  - [Atualização do sistema](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/atualizacao.md)
-  - [Instalação de pacotes](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/instala%C3%A7%C3%A3o.md)
-  - [Navegação do Sistema](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
-  - [Comandos para Manipulação de arquivos e pastas](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
-  - [Comandos para visualização do conteúdo de arquivos](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
-  - [Comandos para busca em arquivos](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
-  - [Comando de busca em diretórios](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
-  - [Permissões](#https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/permissoes.md)
+  - [Atualização do sistema](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/atualizacao.md)
+  - [Instalação de pacotes](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/instala%C3%A7%C3%A3o.md)
+  - [Navegação do Sistema](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
+  - [Comandos para Manipulação de arquivos e pastas](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
+  - [Comandos para visualização do conteúdo de arquivos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
+  - [Comandos para busca em arquivos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
+  - [Comando de busca em diretórios](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
+  - [Permissões](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/permissoes.md)
 
 O terminal Bash é uma interface de linha de comando (CLI) onde podemos executar comandos para controlar o sistema operacional. Ele é um dos shells mais populares e é comumente utilizado em distribuições Linux.
 
