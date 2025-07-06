@@ -2,7 +2,7 @@
 
 **Objetivo do projeto**
 
-A finalidade desse repositório é destinado ao aprendizado próprio e compartilhamento de conhecimento para iniciantes que queiram focar na área de infrastrutura e segurança utilizando a linha de comando do _Linux_.
+Este repositório é voltado para o aprendizado prático de comandos no terminal Linux, com foco em infraestrutura e segurança da informação. Ideal para quem está começando a manipular o terminal e que deseja ganhar autonomia na linha de comando em ambientes Linux.
 
 **O que vou encontrar nesse repositório?**
 
