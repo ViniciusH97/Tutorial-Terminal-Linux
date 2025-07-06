@@ -93,7 +93,7 @@ As ferramentas mencionadas não podem estar disponíveis no repositório do sist
 ### Firewalls e Controle de Rede
 
 *nftables*
-Sucessor moderno do iptables, com sintaxe mais clara e melhor desempenho
+Sucessor do iptables, com sintaxe mais clara e com melhor desempenho
 
 *firewalld*
 Frontend para nftables/iptables que facilita o gerenciamento de regras
@@ -143,7 +143,7 @@ Framework aberto para escaneamento de vulnerabilidades
 Scanner de vulnerabilidades para servidores web
 
 *Nmap*
-Scanner de portas e descoberta de rede com scripts NSE
+Scanner de portas e descoberta de rede.
 
 *WPScan*
 Scanner de vulnerabilidades específico para WordPress
