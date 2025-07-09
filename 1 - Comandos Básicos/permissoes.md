@@ -40,7 +40,9 @@ Ou seja:
 Para atribuirmos as permissões de execução a um arquivo com o comando `chmod`, somando os valores das permissões:
 
 `rwx` = 4 + 2 + 1 = 7
+
 `rw-` = 4 + 2 = 6
+
 `r--` = 4 = 4
 
 Exemplos de definição de permissão ao dono, ao grupo e aos outros usuários:
