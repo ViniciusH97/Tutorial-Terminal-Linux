@@ -273,7 +273,7 @@ Digite seu nome: Pedro
 Olá, Pedro!
 ```
 
-Se não quiser exibir a mensagem basta usar apenas o comando `read` sem a opção `-p`. Nesse caso, o usuário digita diretamente e o valor será armazedad na variável.
+Se não quiser exibir a mensagem basta usar apenas o comando `read` sem a opção `-p`. Nesse caso, o usuário digita diretamente e o valor será armazenado na variável.
 
 Por exemplo:
 
