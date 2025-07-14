@@ -31,7 +31,7 @@ Podemos utilizar o editor de texto `nano` nativo do shell, ou pode utilizar outr
 
 Com o editor de texto `nano`:
 ```bash
-nano meu_script
+nano meu_script.sh
 ```
 Em seguida pressione Enter. abrirá o editor de texto nano, assim, podemos escrever o primeiro script bash Hello, World!
 ```bash
