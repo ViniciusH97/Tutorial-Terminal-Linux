@@ -38,7 +38,7 @@ Em seguida pressione Enter. abrirá o editor de texto nano, assim, podemos escre
 #!/bin/bash
 echo "Hello, World!"
 ```
-Após editar o arquivo devemos salvar o nome do arquivo
+Após editar pressione o atalho para salvar `CTRL + O`, neste momento você pode editar o nome do arquivo, caso queira salvar pressione `Enter` e pressione o atalho `CTRL + X` para fechar o editor de texto nano.
 
 > Obs: Não esqueça que de inserir _#!/bin/bash_ sempre deve ser inserido no começo dos scripts bash, para que seja identificado o interpretador.
 
