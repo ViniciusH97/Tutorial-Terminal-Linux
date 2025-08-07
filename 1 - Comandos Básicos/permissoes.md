@@ -19,14 +19,14 @@ Este comando exibirá as permissões de leitura, escrita e execução de cada ar
 |---|-----|-----|-----|
 | Tipo |  u  |  g  |  o  |
 
-`-` = Arquivo
-`d` = diretório
+-`-` = Arquivo
+-`d` = diretório
 
 As permissões:
 
-`r` = leitura  valor -> 4
-`w` = erscrita valor -> 2
-`x` = execução valor -> 1
+-`r` = leitura  valor -> 4
+-`w` = erscrita valor -> 2
+-`x` = execução valor -> 1
 
 Ou seja:
 
