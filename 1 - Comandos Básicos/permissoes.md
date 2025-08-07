@@ -50,9 +50,9 @@ Exemplos de definição de permissão ao dono, ao grupo e aos outros usuários:
 ```bash
 chmod 745 arquivo.txt
 ```
-7 -> (rwx) leitura, escrita e execução ao dono
-5 -> (r-x) apenas leitura e execução ao grupo
-4 -> (r--) apenas leitura aos outros usuários
+- 7 -> (rwx) leitura, escrita e execução ao dono
+- 5 -> (r-x) apenas leitura e execução ao grupo
+- 4 -> (r--) apenas leitura aos outros usuários
 
 Dar permissão total ao dono, leitura ao grupo e leitura aos outros:
 
