@@ -63,7 +63,6 @@ Com esses comandos, você poderá realizar buscas de arquivos, diretórios e pad
 | locate  | Buscar arquivos e diretórios | locate "dados.csv" | locate log (retorna todos os arquivos e diretórios com log no nome)
 | history | Exibe o histórico de comandos | history | - |
 | clear   | Limpa o terminal | clear | - |
-| locate  | Buscar arquivos e diretórios | locate dados.csv | locate log (retorna todos os arquivos e diretórios com log no nome)
 
 > Obs: O comando `locate` é uma alternativa do comando `find`, pois ele é mais rápido ao realizar pesquisas. Isso ocorre porque o primeiro apenas verifica seu banco de dados Linux em vez de todo o sistema. Além disso, a sintaxe é relativamente mais fácil de escrever.
 
