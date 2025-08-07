@@ -19,8 +19,8 @@ Este comando exibirá as permissões de leitura, escrita e execução de cada ar
 |---|-----|-----|-----|
 | Tipo |  u  |  g  |  o  |
 
--`-` = Arquivo
--`d` = diretório
+- `-` = Arquivo
+- `d` = diretório
 
 As permissões:
 
