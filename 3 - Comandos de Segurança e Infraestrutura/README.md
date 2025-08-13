@@ -27,7 +27,7 @@ Confirma se as informações e as transações são legítimas e provém de font
 
 __*Phishing*__:
 
-Envio de mensagens fraudulentas para capturar credenciais (podem fazer uso da engenharia social).
+Envio de mensagens/e-mails para enganar as pessoas, como e-mail de promoção com um link malicioso, para que a vítima clique e seja comprometida com um malware ou roubo de credenciais (ténica de engenharia social).
 
 _**Malware**_:
 
