@@ -1,7 +1,5 @@
 # Comandos básicos em Bash🐧
 
-## Comandos essenciais
-
 Para você que está começando a utilizar o terminal, é essencial aprender os comandos básicos do GNU Bash, como comandos de navegação, gerenciar arquivos, ver informações do sistema e até automatização de tarefas. Abaixo acesse o conteúdo pelo índice referente aos comandos básicos para o uso do terminal.
 
 - [Comandos básicos em Bash🐧](#comandos-básicos-em-bash)
