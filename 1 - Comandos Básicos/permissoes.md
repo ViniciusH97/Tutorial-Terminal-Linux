@@ -7,7 +7,7 @@ Para tornar fácil o entendimento de permissões de arquivos, navegue para um di
 ```bash
 ls -la
 ```
-Este comando exibirá as permissões de leitura, escrita e execução de cada arquivo, e os grupos definidos por categoria. São eles:
+Este comando exibirá as permissões de leitura, escrita e execução de cada arquivo e diretório, e os grupos definidos por categoria. São eles:
 - Usuário (u) criador/dono do arquivo
 - Grupo (g) grupo do dono
 - Outros (o) os demais usuários
