@@ -256,7 +256,7 @@ done
 
 ## 1.6. Entrada de usuário
 
-Podemos receber um valor com a entrada do usuário. Para realizarmos a leitura da entrada do usuário utilizamos o `read` para a leitura. O comando `-p` usamos para mostrar e determinamos a variável que ira receber o valor após o texto, no exemplo abaixo é criado a variável `nome`.
+Podemos receber um valor com a entrada do usuário. Para realizarmos a leitura da entrada do usuário utilizamos o `read` para a leitura. O comando `-p` usamos para mostrar o texto e determinamos a variável que ira receber o valor após o texto, no exemplo abaixo é criado a variável `nome`.
 
 Por exemplo:
 
