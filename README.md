@@ -45,7 +45,7 @@ O Bash (Bourne Again Shell) é o shell padrão na maioria das distribuições Li
 - Criação de scripts eficientes para administração do sistema  
 - Maior controle e agilidade no uso do terminal  
 
-Para mais informações do GNU Bash acesse: [Manual Oficial do GNU Bash](https://www.gnu.org/software/bash/manual/).
+Para mais informações do GNU Bash acesse: [Manual Oficial do GNU Bash](https://www.gnu.org/software/bash/manual/)
 
 ### Dicas
 
@@ -63,19 +63,9 @@ Se você quer aprender comandos Linux e se aprofundar com mais explicações cur
 5. Envie para seu fork: `git push origin minha-contribuicao`
 6. Abra um Pull Request para a branch `main` deste repositório
 
-## Sugestões de contribuição
-
-- Melhorias na explicação de comandos
-- Inclusão de novos exemplos
-- Scripts úteis em Bash
-- Correções ortográficas
-- Tradução (PT-BR / EN)
-
 Sinta-se à vontade para abrir uma Issue para discutir ideias ou dúvidas.
 
 Agradeço pela contribuição!
-
-Work in progress...
 
 Tutorial Terminal Linux © 2025 by ViniciusH97 is licensed under 
 [CC BY-NC 4.0 ][cc-by-nc].
