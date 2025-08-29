@@ -59,7 +59,7 @@ Consiste na injeção de um script malicioso em uma aplicação para conseguir i
 
 ## Principais categorias de vírus e suas motivações:
 
-_**Trojans**_: 
+_**Trojans**_(cavalo de troia): 
 Disfarçados de software; motivação financeira ou espionagem.  
 
 _**Worms**_: 
@@ -69,7 +69,13 @@ _**Ransomware**_:
 Criptografa dados e exige resgate; motivação financeira.  
 
 _**Spyware**_: 
-Coleta informações sem o consentimento do usuário; espionagem corporativa ou governamental.  
+Coleta informações sem o consentimento do usuário; espionagem corporativa ou governamental.
+
+_**Adware**_:
+Programa malicioso que infecta o computador, e faz com seja exibido anúncios e propagandas. Na maioria das vezes em nageadores.
+
+_**Rootkits**_:
+Escondem os malwares, e dão acesso privilegiado ao atacante.
 
 Entender esses conceitos é o primeiro passo para implementar boas práticas e ferramentas que protejam sistemas e garantam a segurança de dados.
 
