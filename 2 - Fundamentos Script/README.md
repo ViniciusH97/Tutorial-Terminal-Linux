@@ -432,4 +432,5 @@ O comando `sleep` pausa a axecução no tempo especificado em segundos.
 sleep 3
 ```
 **date**
+
 O comando `date` exibe a data e a hora atual.
