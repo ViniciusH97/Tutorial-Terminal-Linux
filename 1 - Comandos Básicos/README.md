@@ -11,6 +11,7 @@ Para você que está começando a utilizar o terminal, é essencial aprender os 
   - [Comandos para busca em arquivos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
   - [Comando de busca em diretórios](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/navegacao.md)
   - [Permissões](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/permissoes.md)
+  - [Sistema](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/sistema.md)
 
 O terminal Bash é uma interface de linha de comando (CLI) onde podemos executar comandos para controlar o sistema operacional. Ele é um dos shells mais populares e é comumente utilizado em distribuições Linux.
 
