@@ -52,21 +52,6 @@ Para mais informações do GNU Bash acesse: [Manual Oficial do GNU Bash](https:/
 Se você quer aprender comandos Linux e se aprofundar com mais explicações curtas e diretas, recomendo dar uma olhada nos projetos:
 [tldr-pages](https://tldr.sh/), e [Linux man pages online](https://man7.org/linux/man-pages/). Eles fornecem exemplos práticos de uso dos comandos do terminal de forma objetiva.
 
-## Quer contribuir com o projeto?
-
-### Como contribuir
-
-1. Faça um fork do repositório
-2. Crie uma branch: `git checkout -b minha-contribuicao`
-3. Faça suas alterações
-4. Faça o commit: `git commit -m "Minha melhoria"`
-5. Envie para seu fork: `git push origin minha-contribuicao`
-6. Abra um Pull Request para a branch `main` deste repositório
-
-Sinta-se à vontade para abrir uma Issue para discutir ideias ou dúvidas.
-
-Agradeço pela contribuição!
-
 Tutorial Terminal Linux © 2025 by ViniciusH97 is licensed under 
 [CC BY-NC 4.0 ][cc-by-nc].
 
