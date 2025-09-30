@@ -44,7 +44,7 @@ Seus pilares fundamentais garantem a robustez de um sistema seguro.
 * **Engenharia Social:** Manipulação psicológica para enganar indivíduos e induzi-los a divulgar informações confidenciais ou realizar ações que comprometam a segurança.
     * **Exemplo:** O avanço de tecnologias como *deepfake* tornou esses ataques ainda mais sofisticados e difíceis de detectar.
 
-* **Phishing:** Principal vetor da engenharia social, utiliza e-mails, SMS ou mensagens fraudulentas que se passam por comunicações legítimas para roubar credenciais ou distribuir malware.
+* **Phishing/vishing/smishing:** Principal vetor da engenharia social, utiliza e-mails, SMS ou até ligações para enganaras vítimas, coletar informações confidenciais.
     * **Variações:** *Spear Phishing* (direcionado a um indivíduo específico) e *Whaling* (direcionado a executivos de alto escalão).
 
 * **Ataques de Negação de Serviço (DoS/DDoS):** Sobrecarregam um servidor, serviço ou rede com tráfego ilegítimo, tornando-o indisponível para usuários.
