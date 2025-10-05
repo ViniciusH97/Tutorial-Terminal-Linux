@@ -100,13 +100,13 @@ systemctl enable nginx
 ```
 
 ### netstat -tulnp
-Listagmm de portas e serviços do sistema
+Listagem de portas e serviços do sistema
 
 Exemplo:
 ```bash
 netstat -tuln
 ```
-> t : mostra conexões TCP
-> u : mostra conexões UDP
-> l : mostra portas em escuta (aguardando conexão)
-> l : Mostra endereços e portas em formato numérico (ex: mostra 0.0.0.0:22)
+- t : mostra conexões TCP
+- u : mostra conexões UDP
+- l : mostra portas em escuta (aguardando conexão)
+- l : Mostra endereços e portas em formato numérico (ex: mostra 0.0.0.0:22)
