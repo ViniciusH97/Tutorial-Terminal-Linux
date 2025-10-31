@@ -1,4 +1,3 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/ViniciusH97/Bash-Script-tutorial)
 
 **Objetivo do projeto**
 
@@ -10,7 +9,7 @@ Nesse repositório você irá encontrar comandos essenciais no terminal shell pa
 
 Navegue pela documentação clicando nos tópicos do índice abaixo:
 
-**Índice:**
+**Índice do README:**
 - [Introdução ao Terminal Linux](#introdução-ao-terminal-linux)
   - [Bash Script](#bash-script)
     - [O que é o Bash?](#o-que-é-o-bash)
@@ -18,6 +17,7 @@ Navegue pela documentação clicando nos tópicos do índice abaixo:
     - [Por que usar?](#por-que-usar)
     - [Dicas](#dicas)
 ---
+**Índice do repositório**:
 - [Comandos Básicos](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/1%20-%20Comandos%20B%C3%A1sicos/README.md)
 - [Fundamentos de Script](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/tree/main/2%20-%20Fundamentos%20Script)
 - [Ferramentas e comandos de Segurança e Infraestrutura](https://github.com/ViniciusH97/Tutorial-Terminal-Linux/blob/main/3%20-%20Comandos%20de%20Seguran%C3%A7a%20e%20Infraestrutura/README.md)
